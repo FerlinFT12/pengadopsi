@@ -2,6 +2,7 @@
 
 namespace Config;
 
+use App\Controllers\Pelanggan;
 use CodeIgniter\Config\BaseConfig;
 
 class Filters extends BaseConfig
@@ -12,9 +13,10 @@ class Filters extends BaseConfig
 		'csrf'     => \CodeIgniter\Filters\CSRF::class,
 		'toolbar'  => \CodeIgniter\Filters\DebugToolbar::class,
 		'honeypot' => \CodeIgniter\Filters\Honeypot::class,
-		'filteradmin' => \App\Filters\Filteradmin::class,
-		'filteruser' => \App\Filters\Filteruser::class,
-		'filterpelanggan' => \App\Filters\Filterpelanggan::class,
+		'filteradmin' => \App\Filters\FilterAdmin::class,
+		'filterdonatur' => \App\Filters\FilterDonatur::class,
+		'filtermitra' => \App\Filters\FilterMitra::class,
+		'filterpengadopsi' => \App\Filters\FilterPengadopsi::class,
 	];
 
 	// Always applied before every request
@@ -23,14 +25,19 @@ class Filters extends BaseConfig
 			'filteradmin' =>  ['except' => [
 				'auth', 'auth/*',
 				'web', 'web/*',
-				'/'
+				'/',
 			]],
-			'filteruser' =>  ['except' => [
+			'filterdonatur' =>  ['except' => [
 				'auth', 'auth/*',
 				'web', 'web/*',
 				'/'
 			]],
-			'filterpelanggan' =>  ['except' => [
+			'filtermitra' =>  ['except' => [
+				'auth', 'auth/*',
+				'web', 'web/*',
+				'/'
+			]],
+			'filterpengadopsi' =>  ['except' => [
 				'auth', 'auth/*',
 				'web', 'web/*',
 				'/'
@@ -41,15 +48,22 @@ class Filters extends BaseConfig
 		'after'  => [
 			'filteradmin' =>  ['except' => [
 				'home', 'home/*',
-				'admin', 'admin/*'
+				'admin', 'admin/*',
+				'donatur', 'donatur/*',
+				'mitra', 'mitra/*',
+				'pengadopsi', 'pengadopsi/*'
 			]],
-			'filteruser' =>  ['except' => [
+			'filterdonatur' =>  ['except' => [
 				'home', 'home/*',
-				'user', 'user/*'
+				'donatur', 'donatur/*'
 			]],
-			'filterpelanggan' =>  ['except' => [
+			'filtermitra' =>  ['except' => [
 				'home', 'home/*',
-				'pelanggan', 'pelanggan/*'
+				'mitra', 'mitra/*'
+			]],
+			'filterpengadopsi' =>  ['except' => [
+				'home', 'home/*',
+				'pengadopsi', 'pengadopsi/*'
 			]],
 			'toolbar',
 			//'honeypot'
