@@ -159,7 +159,6 @@
             <label>Jenis</label>
             <select name="level" id="level" class="form-control">
               <option>Pilih...</option>
-              <option value="1">Admin</option>
               <option value="2">Donatur</option>
               <option value="3">Mitra</option>
               <option value="4">Pengadopsi</option>
