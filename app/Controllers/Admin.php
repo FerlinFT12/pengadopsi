@@ -8,7 +8,7 @@ class Admin extends BaseController
   {
     $data = array(
       'title' => 'Halaman Admin',
-      'isi' => 'v_halaman'
+      'isi' => 'v_admin'
     );
     return view('layout/v_wrapper', $data);
   }

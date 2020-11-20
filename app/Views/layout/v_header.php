@@ -47,9 +47,11 @@
                     <?php if (session()->get('level') == 1) {
                       echo 'Admin Pegawai';
                     } elseif (session()->get('level') == 2) {
-                      echo 'User';
+                      echo 'donatur';
+                    } elseif (session()->get('level') == 3) {
+                      echo 'mitra';
                     } else {
-                      echo 'Pelanggan';
+                      echo 'Pengadopsi';
                     } ?>
 
                   </p>

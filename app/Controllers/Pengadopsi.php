@@ -8,7 +8,7 @@ class Pengadopsi extends BaseController
   {
     $data = array(
       'title' => 'Halaman Pengadopsi',
-      'isi' => 'v_halaman'
+      'isi' => 'v_pengadopsi'
     );
     return view('layout/v_wrapper', $data);
   }

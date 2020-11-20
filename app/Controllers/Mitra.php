@@ -8,7 +8,7 @@ class Mitra extends BaseController
   {
     $data = array(
       'title' => 'Halaman Mitra',
-      'isi' => 'v_halaman'
+      'isi' => 'v_mitra'
     );
     return view('layout/v_wrapper', $data);
   }

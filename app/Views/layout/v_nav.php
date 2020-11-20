@@ -13,9 +13,11 @@
             </i> <?php if (session()->get('level') == 1) {
                     echo 'Admin Pegawai';
                   } elseif (session()->get('level') == 2) {
-                    echo 'User';
+                    echo 'Donatur';
+                  } elseif (session()->get('level') == 3) {
+                    echo 'Mitra';
                   } else {
-                    echo 'Pelanggan';
+                    echo 'Pengadopsi';
                   } ?></a>
         </div>
       </div>
@@ -43,30 +45,58 @@
               <i class="fa fa-th"></i> <span>Menu Admin 2</span>
             </a>
           </li>
+          <li>
+            <a href="<?= base_url('donatur/') ?>">
+              <i class="fa fa-home"></i> <span>Menu Donatur 1</span>
+            </a>
+          </li>
+          <li>
+            <a href="<?= base_url('mitra') ?>">
+              <i class="fa fa-home"></i> <span>Menu Mitra 1</span>
+            </a>
+          </li>
+          <li>
+            <a href="<?= base_url('pengadopsi') ?>">
+              <i class="fa fa-home"></i> <span>Menu Pengadopsi 1</span>
+            </a>
+          </li>
         <?php } ?>
 
         <?php if (session()->get('level') == 2) { ?>
           <li>
-            <a href="<?= base_url('user/') ?>">
-              <i class="fa fa-home"></i> <span>Menu User 1</span>
+            <a href="<?= base_url('donatur/') ?>">
+              <i class="fa fa-home"></i> <span>Menu Donatur 1</span>
             </a>
           </li>
           <li>
             <a href="../widgets.html">
-              <i class="fa fa-th"></i> <span>Menu User 2</span>
+              <i class="fa fa-th"></i> <span>Menu Donatur 2</span>
             </a>
           </li>
         <?php } ?>
 
         <?php if (session()->get('level') == 3) { ?>
           <li>
-            <a href="<?= base_url('pelanggan') ?>">
-              <i class="fa fa-home"></i> <span>Menu Pelanggan 1</span>
+            <a href="<?= base_url('mitra') ?>">
+              <i class="fa fa-home"></i> <span>Menu Mitra 1</span>
             </a>
           </li>
           <li>
             <a href="../widgets.html">
-              <i class="fa fa-th"></i> <span>Menu Pelanggan 2</span>
+              <i class="fa fa-th"></i> <span>Menu Mitra 2</span>
+            </a>
+          </li>
+        <?php } ?>
+
+        <?php if (session()->get('level') == 4) { ?>
+          <li>
+            <a href="<?= base_url('pengadopsi') ?>">
+              <i class="fa fa-home"></i> <span>Menu Pengadopsi 1</span>
+            </a>
+          </li>
+          <li>
+            <a href="../widgets.html">
+              <i class="fa fa-th"></i> <span>Menu Pengadopsi 2</span>
             </a>
           </li>
         <?php } ?>
@@ -87,7 +117,7 @@
         <small><img src="<?= base_url() ?>/template/a/assets/img/logo-app.png" alt="logo" width="120" class="shadow-light rounded-circle"></small>
       </h1>
       <ol class="breadcrumb">
-        <li><a href="<?= base_url('home') ?>"><i class="fa fa-dashboard"></i> Home</a></li>
+        <li><a href="<?= base_url('home') ?>"><i class="fa fa-dashboard"></i>Dashboard</a></li>
         <li class="active"><?= $title ?></li>
       </ol>
     </section>
