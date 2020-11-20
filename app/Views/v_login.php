@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Argowisata Porlak Parna | Login Page</title>
+  <title>Agrowisata Porlak Parna | Login Page</title>
   <!-- Tell the browser to be responsive to screen width -->
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
   <!-- Bootstrap 3.3.7 -->
@@ -35,7 +35,7 @@
 <body class="hold-transition register-page">
   <div class="register-box">
     <div class="register-logo">
-      <a href="../../index2.html"><b>Login</b><img src="<?= base_url() ?>/template/a/assets/img/logo-app.png" alt="logo" width="300" class="shadow-light rounded-circle"></a>
+      <a href="<?= base_url('auth_login') ?>"><b>Login</b><img src="<?= base_url() ?>/template/a/assets/img/logo-app.png" alt="logo" width="300" class="shadow-light rounded-circle"></a>
     </div>
 
     <div class="register-box-body">
