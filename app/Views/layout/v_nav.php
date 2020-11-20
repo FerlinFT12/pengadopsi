@@ -82,8 +82,8 @@
             </a>
           </li>
           <li>
-            <a href="../widgets.html">
-              <i class="fa fa-th"></i> <span>Menu Mitra 2</span>
+            <a href="<?php route_to('mitramenubibit');?>">
+              <i class="fa fa-th"></i> <span>Menu Bibit</span>
             </a>
           </li>
         <?php } ?>

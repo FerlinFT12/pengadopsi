@@ -33,6 +33,12 @@ $routes->setAutoRoute(true);
 // route since we don't have to scan directories.
 $routes->get('/', 'Web::index',['as' => 'home']);
 $routes->get('/login', 'Auth::login',['as' => 'login']);
+$routes->get('/register', 'Auth::register');
+
+$routes->get('/home', 'Home::index',['as' => 'dashboard']);
+$routes->get('/menubibit', 'Pembibit::menubibit',['as' => 'pembibitmenubibit']);
+
+
 /**
  * --------------------------------------------------------------------
  * Additional Routing

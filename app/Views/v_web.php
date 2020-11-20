@@ -75,7 +75,7 @@
             <h2>Jika Anda merawat saya hari ini,itu berarti Anda sedang mempersiapkan hidup Anda untuk 20 tahun ke depan.</h2>
           </a>
           <div class="d-lg-flex" data-aos="fade-up" data-aos-delay="2000">
-            <a href="<?= base_url('auth_login') ?>" class="btn-get-started scrollto">Mari Bergabung</a>
+            <a href="<?= base_url('auth/register') ?>" class="btn-get-started scrollto">Mari Bergabung</a>
             <a href="https://youtu.be/LCZvgQkS_yM" class="venobox btn-watch-video" data-vbtype="video" data-autoplay="true"> Watch Video <i class="icofont-play-alt-2"></i></a>
           </div>
         </div>
@@ -211,7 +211,7 @@
             <p> Kegiatan Pelestarian dan Pemberdayaan Ekonomi Kerakyatan di Kawasan Danau Toba melalui Gerakan 1000 Porlak Tanaman Produktif dan Agrowisata. Siapapun Anda dapat berkontribusi membangun Danau Toba. Danau Toba dan Pulau Samosir adalah aset bangsa dan aset kita.</p>
           </div>
           <div class="col-lg-3 cta-btn-container text-center">
-            <a class="cta-btn align-middle" href="<?= base_url('auth_login') ?>">Gabung Sekarang</a>
+            <a class="cta-btn align-middle" href="<?= base_url('auth/register') ?>">Gabung Sekarang</a>
           </div>
         </div>
       </div>
@@ -236,7 +236,7 @@
             <p> Kegiatan Pelestarian dan Pemberdayaan Ekonomi Kerakyatan di Kawasan Danau Toba melalui Gerakan 1000 Porlak Tanaman Produktif dan Agrowisata. Siapapun Anda dapat berkontribusi membangun Danau Toba. Danau Toba dan Pulau Samosir adalah aset bangsa dan aset kita.</p>
           </div>
           <div class="col-lg-3 cta-btn-container text-center">
-            <a class="cta-btn align-middle" href="<?= base_url('auth_login') ?>">Gabung Sekarang</a>
+            <a class="cta-btn align-middle" href="<?= base_url('auth/register') ?>">Gabung Sekarang</a>
           </div>
         </div>
       </div>
@@ -352,7 +352,7 @@
             <p> Kegiatan Pelestarian dan Pemberdayaan Ekonomi Kerakyatan di Kawasan Danau Toba melalui Gerakan 1000 Porlak Tanaman Produktif dan Agrowisata. Siapapun Anda dapat berkontribusi membangun Danau Toba. Danau Toba dan Pulau Samosir adalah aset bangsa dan aset kita.</p>
           </div>
           <div class="col-lg-3 cta-btn-container text-center">
-            <a class="cta-btn align-middle" href="<?= base_url('auth_login') ?>">Gabung Sekarang</a>
+            <a class="cta-btn align-middle" href="<?= base_url('auth/register') ?>">Gabung Sekarang</a>
           </div>
         </div>
       </div>
@@ -514,7 +514,7 @@
             <p> Kegiatan Pelestarian dan Pemberdayaan Ekonomi Kerakyatan di Kawasan Danau Toba melalui Gerakan 1000 Porlak Tanaman Produktif dan Agrowisata. Siapapun Anda dapat berkontribusi membangun Danau Toba. Danau Toba dan Pulau Samosir adalah aset bangsa dan aset kita.</p>
           </div>
           <div class="col-lg-3 cta-btn-container text-center">
-            <a class="cta-btn align-middle" href="<?= base_url('auth_login') ?>">Gabung Sekarang</a>
+            <a class="cta-btn align-middle" href="<?= base_url('auth/register') ?>">Gabung Sekarang</a>
           </div>
         </div>
       </div>
