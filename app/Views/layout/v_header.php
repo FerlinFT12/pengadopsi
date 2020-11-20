@@ -4,7 +4,7 @@
 
     <header class="main-header">
       <!-- Logo -->
-      <a href="http://localhost/ci4_sistemlogin/public/home" class="logo">
+      <a href="http://localhost:8080" class="logo">
         <!-- mini logo for sidebar mini 50x50 pixels -->
         <span class="logo-mini"><b>A</b>PP</span>
         <!-- logo for regular state and mobile devices -->
