@@ -77,13 +77,23 @@
 
         <?php if (session()->get('level') == 3) { ?>
           <li>
-            <a href="<?= base_url('mitra') ?>">
-              <i class="fa fa-home"></i> <span>Menu Mitra 1</span>
+            <a href="<?= base_url('home') ?>">
+              <i class="fa fa-home"></i> <span>Home</span>
             </a>
           </li>
           <li>
-            <a href="<?php route_to('mitramenubibit');?>">
+            <a href="<?= base_url('pembibit/menubibit') ?>">
               <i class="fa fa-th"></i> <span>Menu Bibit</span>
+            </a>
+          </li>
+          <li>
+            <a href="<?= base_url('pembibit/transaksi') ?>">
+              <i class="fa fa-th"></i> <span>Transaksi</span>
+            </a>
+          </li>
+          <li>
+            <a href="<?= base_url('pembibit/persediaanbibit') ?>">
+              <i class="fa fa-th"></i> <span>Persediaan Bibit</span>
             </a>
           </li>
         <?php } ?>

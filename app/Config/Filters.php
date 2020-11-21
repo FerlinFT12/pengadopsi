@@ -59,7 +59,8 @@ class Filters extends BaseConfig
 			]],
 			'filtermitra' =>  ['except' => [
 				'home', 'home/*',
-				'mitra', 'mitra/*'
+				'mitra', 'mitra/*',
+				'transaksi', 'transaksi/*'
 			]],
 			'filterpengadopsi' =>  ['except' => [
 				'home', 'home/*',

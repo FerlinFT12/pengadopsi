@@ -61,7 +61,7 @@
         </ul>
       </nav>
       <!-- .nav-menu -->
-      <a href="<?= base_url('auth_login') ?>" class="get-started-btn scrollto">Login</a>
+      <a href="<?= base_url('auth/login') ?>" class="get-started-btn scrollto">Login</a>
     </div>
   </header><!-- End Header -->
 
@@ -75,7 +75,7 @@
             <h2>Jika Anda merawat saya hari ini,itu berarti Anda sedang mempersiapkan hidup Anda untuk 20 tahun ke depan.</h2>
           </a>
           <div class="d-lg-flex" data-aos="fade-up" data-aos-delay="2000">
-            <a href="<?= base_url('auth/register') ?>" class="btn-get-started scrollto">Mari Bergabung</a>
+            <a href="<? route_to('registeruser'); ?>" class="btn-get-started scrollto">Mari Bergabung</a>
             <a href="https://youtu.be/LCZvgQkS_yM" class="venobox btn-watch-video" data-vbtype="video" data-autoplay="true"> Watch Video <i class="icofont-play-alt-2"></i></a>
           </div>
         </div>

@@ -163,6 +163,7 @@ class Auth extends BaseController
     }
   }
 
+  //Method Login User
   public function login()
   {
     $data = array(
@@ -171,6 +172,7 @@ class Auth extends BaseController
     return view('v_login', $data);
   }
 
+  //Method proses cek login user
   public function cek_login()
   {
     if ($this->validate([

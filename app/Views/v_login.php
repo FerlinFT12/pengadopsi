@@ -35,7 +35,7 @@
 <body class="hold-transition register-page">
   <div class="register-box">
     <div class="register-logo">
-      <a href="<?= base_url('auth_login') ?>"><b>Login</b><img src="<?= base_url() ?>/template/a/assets/img/logo-app.png" alt="logo" width="300" class="shadow-light rounded-circle"></a>
+      <a href="<?= base_url('auth/login') ?>"><b>Login</b><img src="<?= base_url() ?>/template/a/assets/img/logo-app.png" alt="logo" width="300" class="shadow-light rounded-circle"></a>
     </div>
 
     <div class="register-box-body">

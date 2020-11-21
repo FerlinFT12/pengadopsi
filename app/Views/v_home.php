@@ -5,7 +5,7 @@
       <div class="inner">
         <h3>0</h3>
 
-        <p>Admin</p>
+        <p>Menu Bibit</p>
       </div>
       <div class="icon">
         <i class="fa fa-user"></i>
@@ -19,7 +19,7 @@
       <div class="inner">
         <h3>0</h3>
 
-        <p>Donatur</p>
+        <p>Menu Transaksi</p>
       </div>
       <div class="icon">
         <i class="fa fa-gift"></i>
@@ -33,7 +33,7 @@
       <div class="inner">
         <h3>0</h3>
 
-        <p>Mitra</p>
+        <p>Landing Page</p>
       </div>
       <div class="icon">
         <i class="fa fa-users"></i>
@@ -48,7 +48,7 @@
         <h3>0</h3>
 
         <p>
-          <h4>Pengadopsi</h4>
+          <h4>Pembibit</h4>
         </p>
       </div>
       <div class="icon">
