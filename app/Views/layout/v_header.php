@@ -4,12 +4,12 @@
 
     <header class="main-header">
       <!-- Logo -->
-      <a href="http://localhost:8080" class="logo">
+      <a href="http://localhost:8080/home" class="logo">
         <!-- mini logo for sidebar mini 50x50 pixels -->
         <span class="logo-mini"><b>A</b>PP</span>
         <!-- logo for regular state and mobile devices -->
         <span class="logo-lg">
-          <h4><b>Argowisata Porlak Parna</b></h4>
+          <h4><b>Agrowisata Porlak Parna</b></h4>
         </span>
       </a>
       <!-- Header Navbar: style can be found in header.less -->

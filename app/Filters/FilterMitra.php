@@ -11,7 +11,7 @@ class FilterMitra implements FilterInterface
   public function before(RequestInterface $request, $arguments = null)
   {
     // Do something here
-    if (session()->get('level') == "") {
+    if (!session()->get('log')) {
       session()->setFlashdata('pesan', 'Anda Belum Login! , Silahkan Login!');
       return redirect()->to(base_url('auth/login'));
     }

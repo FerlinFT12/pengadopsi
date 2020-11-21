@@ -7,11 +7,10 @@
       <div class="col-xs-12">
         <div class="box">
           <div class="box-header">
-            <h3 class="box-title">Data Bibit</h3>
+            <h3 class="box-title">Data Transaksi Pesanan</h3>
           </div>
           <!-- /.box-header -->
           <div class="box-body">
-            <a href="<?= base_url('pembibit/tambahbibit') ?>" class="btn btn-primary">Tambah Bibit</a>
             <table id="example1" class="table table-bordered table-striped">
               <thead>
                 <tr>

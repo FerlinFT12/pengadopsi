@@ -21,18 +21,7 @@
                   } ?></a>
         </div>
       </div>
-      <!-- search form -->
-      <form action="#" method="get" class="sidebar-form">
-        <div class="input-group">
-          <input type="text" name="q" class="form-control" placeholder="Search...">
-          <span class="input-group-btn">
-            <button type="submit" name="search" id="search-btn" class="btn btn-flat"><i class="fa fa-search"></i>
-            </button>
-          </span>
-        </div>
-      </form>
-      <!-- /.search form -->
-      <!-- sidebar menu: : style can be found in sidebar.less -->
+      <!-- sidebar menu: style can be found in sidebar.less -->
       <ul class="sidebar-menu" data-widget="tree">
         <li class="header">MAIN NAVIGATION</li>
         <?php if (session()->get('level') == 1) { ?>
@@ -87,8 +76,13 @@
             </a>
           </li>
           <li>
-            <a href="<?= base_url('pembibit/transaksi') ?>">
-              <i class="fa fa-th"></i> <span>Transaksi</span>
+            <a href="<?= base_url('pembibit/permintaanpesanan') ?>">
+              <i class="fa fa-th"></i> <span>Permintaan Pesanan</span>
+            </a>
+          </li>
+          <li>
+            <a href="<?= base_url('pembibit/transaksipemesanan') ?>">
+              <i class="fa fa-th"></i> <span>Transaksi Pemesanan</span>
             </a>
           </li>
           <li>
