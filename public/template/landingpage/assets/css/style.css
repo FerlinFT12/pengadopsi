@@ -910,6 +910,8 @@ section {
 .product .icon-box:hover h4 a {
   color: #47b2e4;
 }
+
+/* --- Flip-card ---- */
 .flip-card {
   background-color: transparent;
   width: 300px;
@@ -951,7 +953,7 @@ section {
 /* Style the front side (fallback if image is missing) */
 .flip-card-front {
   background-color: rgba(40, 58, 90, 0.9);
-  color: black;
+  color: white;
   border-radius: 30px;
 }
 
