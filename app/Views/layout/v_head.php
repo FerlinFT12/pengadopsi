@@ -23,6 +23,6 @@
   <!-- Google Font -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
   <!-- logosmall -->
-  <link href="<?= base_url() ?>/template/a/assets/img/logo-small.png" rel="icon">
-  <link href="<?= base_url() ?>/template/a/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="<?= base_url() ?>/template/landingpage/assets/img/logo-small.png" rel="icon">
+  <link href="<?= base_url() ?>/template/landingpage/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 </head>

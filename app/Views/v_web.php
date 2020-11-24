@@ -4,26 +4,26 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Agrowisata Porlak Parna</title>
+  <title>Argowisata Porlak Parna</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
   <!-- logosmall -->
-  <link href="<?= base_url() ?>/template/a/assets/img/logo-small.png" rel="icon">
-  <link href="<?= base_url() ?>/template/a/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="<?= base_url() ?>/template/landingpage/assets/img/logo-small.png" rel="icon">
+  <link href="<?= base_url() ?>/template/landingpage/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Jost:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
-  <link href="<?= base_url() ?>/template/a/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="<?= base_url() ?>/template/a/assets/vendor/icofont/icofont.min.css" rel="stylesheet">
-  <link href="<?= base_url() ?>/template/a/assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="<?= base_url() ?>/template/a/assets/vendor/remixicon/remixicon.css" rel="stylesheet">
-  <link href="<?= base_url() ?>/template/a/assets/vendor/venobox/venobox.css" rel="stylesheet">
-  <link href="<?= base_url() ?>/template/a/assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
-  <link href="<?= base_url() ?>/template/a/assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="<?= base_url('template/landingpage/assets/vendor/bootstrap/css/bootstrap.min.css'); ?>" rel="stylesheet">
+  <link href="<?= base_url('template/landingpage/assets/vendor/icofont/icofont.min.css'); ?>" rel="stylesheet">
+  <link href="<?= base_url('template/landingpage/assets/vendor/boxicons/css/boxicons.min.css'); ?>" rel="stylesheet">
+  <link href="<?= base_url('template/landingpage/assets/vendor/remixicon/remixicon.css'); ?>" rel="stylesheet">
+  <link href="<?= base_url('template/landingpage/assets/vendor/venobox/venobox.css'); ?>" rel="stylesheet">
+  <link href="<?= base_url('template/landingpage/assets/vendor/owl.carousel/assets/owl.carousel.min.css'); ?>" rel="stylesheet">
+  <link href="<?= base_url('template/landingpage/assets/vendor/aos/aos.css'); ?>" rel="stylesheet">
   <!-- Template Main CSS File -->
-  <link href="<?= base_url() ?>/template/a/assets/css/style.css" rel="stylesheet">
+  <link href="<?= base_url('template/landingpage/assets/css/style.css'); ?>" rel="stylesheet">
 
   <!-- =======================================================
   * Template Name: Arsha - v2.2.1
@@ -38,13 +38,13 @@
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top ">
     <div class="container d-flex align-items-center">
-      <h1 class="logo mr-auto"><a href="<?php route_to('home');?>">Agrowisata Porlak Parna</a></h1>
+      <h1 class="logo mr-auto"><a href="index.html">Argowisata Porlak Parna</a></h1>
       <!-- Uncomment below if you prefer to use an image logo -->
-      <!-- <a href="index.html" class="logo mr-auto"><img src="<template/a/assets/img/logo-app.png" alt="" class="img-fluid"></a> -->
+      <!-- <a href="index.html" class="logo mr-auto"><img src="<template/landingpage/assets/img/logo-app.png" alt="" class="img-fluid"></a> -->
       <nav class="nav-menu d-none d-lg-block">
         <ul>
-          <li class="active"><a href="<?php route_to('home');?>">Home</a></li>
-          <li><a href="#profile">Tentang Danau Toba</a></li>
+          <li class="active"><a href="http://localhost/ci4_sistemlogin/public/web">Home</a></li>
+          <li><a href="#profile">Tentanng Danau Toba</a></li>
           <li><a href="#product">Product</a></li>
           <li><a href="#pkbl">PKBL</a></li>
           <li class="drop-down"><a href="#donatur">Donatur</a>
@@ -80,7 +80,7 @@
           </div>
         </div>
         <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
-          <img src="<?= base_url() ?>/template/a/assets/img/logo.png" class="img-fluid animated" alt="">
+          <img src="<?= base_url() ?>/template/landingpage/assets/img/logo.png" class="img-fluid animated" alt="">
         </div>
       </div>
     </div>
@@ -97,7 +97,7 @@
         <div class="row content text-justify">
           <div class="col-lg-6">
             <div class="card shadow gallery-item" data-aos="fade-up" data-aos-delay="200">
-              <div class="gallery-img"><img src="<?= base_url() ?>/template/a/assets/img/t3.jpeg" class="card-img-top"></div>
+              <div class="gallery-img"><img src="<?= base_url('template/landingpage/assets/img/t3.jpeg'); ?>" class="card-img-top"></div>
               <div class="title text-center">
                 <p>Danau Toba, Sumatra Utara</p>
               </div>
@@ -134,7 +134,7 @@
               <h4><a href="">Porlak</a></h4>
               <div class="card-group">
                 <div class="card shadow gallery-item" data-aos="fade-up" data-aos-delay="600">
-                  <div class="gallery-img"><img src="<?= base_url() ?>/template/a/assets/img/pohon.jpg" class="card-img-top"></div>
+                  <div class="gallery-img"><img src="<?= base_url() ?>/template/landingpage/assets/img/pohon.jpg" class="card-img-top"></div>
                 </div>
               </div>
               <p>Melakukan penghijauan dengan cara menanam pohon buah-buahan di atas tanah milik petani dan tanah terlantar berbasis porlak. Seluruh hasil porlak menjadi hak petani dan bebas dijual sesuai keinginan petani.</p>
@@ -147,7 +147,7 @@
               <h4><a href="">Bibit</a></h4>
               <div class="card-group">
                 <div class="card shadow gallery-item" data-aos="fade-up" data-aos-delay="600">
-                  <div class="gallery-img"><img src="<?= base_url() ?>/template/a/assets/img/durian.png" class="card-img-top"></div>
+                  <div class="gallery-img"><img src="<?= base_url() ?>/template/landingpage/assets/img/durian.png" class="card-img-top"></div>
                 </div>
               </div>
               <p>Bibit yang akan ditanam adalah bibit unggul yang telah disertifikasi oleh instansi yang berwenang. Untuk tujuan ini perusahaan akan bermitra dengan petani mengembangkan pembibitan.</p>
@@ -160,7 +160,7 @@
               <h4><a href="">Pupuk Organik</a></h4>
               <div class="card-group">
                 <div class="card shadow gallery-item" data-aos="fade-up" data-aos-delay="600">
-                  <div class="gallery-img"><img src="<?= base_url() ?>/template/a/assets/img/kompos.png" class="card-img-top"></div>
+                  <div class="gallery-img"><img src="<?= base_url() ?>/template/landingpage/assets/img/kompos.png" class="card-img-top"></div>
                 </div>
               </div>
               <p>Pupuk kompos tanaman akan dipenuhi dari gulma enceng gondok yang dimasukkan kedalam Biopori. Kebutuhan enceng gondok ini akan di supply melalui kemitraan dengan petani.</p>
@@ -182,7 +182,7 @@
             <p> Kegiatan Pelestarian dan Pemberdayaan Ekonomi Kerakyatan di Kawasan Danau Toba melalui Gerakan 1000 Porlak Tanaman Produktif dan Agrowisata. Siapapun Anda dapat berkontribusi membangun Danau Toba. Danau Toba dan Pulau Samosir adalah aset bangsa dan aset kita.</p>
           </div>
           <div class="col-lg-3 cta-btn-container text-center">
-            <a class="cta-btn align-middle" href="<?= base_url('auth_login') ?>">Gabung Sekarang</a>
+            <a class="cta-btn align-middle" href="<?= base_url('auth/register') ?>">Gabung Sekarang</a>
           </div>
         </div>
       </div>
@@ -257,7 +257,7 @@
                 <h1>A</h1>
               </div>
               <div class="flip-card-back">
-                <img src="<?= base_url() ?>/template/a/assets/img/donasi.jpeg" style="width: 298px; height: 190px; margin-bottom: -100px;">
+                <img src="<?= base_url() ?>/template/landingpage/assets/img/donasi.jpeg" style="width: 298px; height: 190px; margin-bottom: -100px;">
                 <h5 class=" card-title text-center">Paket A</h5>
                 <p class="card-text text-center">IDR. 1.000.000</p>
 
@@ -273,7 +273,7 @@
                 <h1>B</h1>
               </div>
               <div class="flip-card-back" style="background-color: rgb(119, 136, 153);">
-                <img src="<?= base_url() ?>/template/a/assets/img/paket.png" style="width: 298px; height: 190px; margin-bottom: -100px;">
+                <img src="<?= base_url() ?>/template/landingpage/assets/img/paket.png" style="width: 298px; height: 190px; margin-bottom: -100px;">
                 <h5 class=" card-title text-center">Paket B</h5>
                 <p class="card-text text-center">IDR. 2.500.000</p>
               </div>
@@ -286,7 +286,7 @@
                 <h1>C</h1>
               </div>
               <div class="flip-card-back" style="background-color: rgb(240, 128, 128);">
-                <img src="<?= base_url() ?>/template/a/assets/img/paket.png" style="width: 298px; height: 190px; margin-bottom: -100px;">
+                <img src="<?= base_url() ?>/template/landingpage/assets/img/paket.png" style="width: 298px; height: 190px; margin-bottom: -100px;">
                 <h5 class=" card-title text-center">Paket C</h5>
                 <p class="card-text text-center">IDR. 5.000.000</p>
               </div>
@@ -304,7 +304,7 @@
                   <h1>D</h1>
                 </div>
                 <div class="flip-card-back" style="background-color: rgb(252, 165, 3);">
-                  <img src="<?= base_url() ?>/template/a/assets/img/paket.png" style="width: 298px; height: 190px; margin-bottom: -100px;">
+                  <img src="<?= base_url() ?>/template/landingpage/assets/img/paket.png" style="width: 298px; height: 190px; margin-bottom: -100px;">
                   <h5 class=" card-title text-center">Paket D</h5>
                   <p class="card-text text-center">IDR. 10.000.000</p>
 
@@ -318,7 +318,7 @@
                   <h1>E</h1>
                 </div>
                 <div class="flip-card-back" style="background-color: rgb(205, 133, 63);">
-                  <img src="<?= base_url() ?>/template/a/assets/img/paket.png" style="width: 298px; height: 190px; margin-bottom: -100px;">
+                  <img src="<?= base_url() ?>/template/landingpage/assets/img/paket.png" style="width: 298px; height: 190px; margin-bottom: -100px;">
                   <h5 class=" card-title text-center">Paket E</h5>
                   <p class="card-text text-center">IDR. 25.000.000</p>
 
@@ -388,7 +388,7 @@
                 <h1>A</h1>
               </div>
               <div class="flip-card-back">
-                <img src="<?= base_url() ?>/template/a/assets/img/paket.png" style="width: 298px; height: 190px; margin-bottom: -100px;">
+                <img src="<?= base_url() ?>/template/landingpage/assets/img/paket.png" style="width: 298px; height: 190px; margin-bottom: -100px;">
                 <h1 class=" card-title text-center">Paket A</h1>
                 <p class="card-text text-center">10 - 15 Tanaman</p>
 
@@ -404,7 +404,7 @@
                 <h1>B</h1>
               </div>
               <div class="flip-card-back" style="background-color: rgb(119, 136, 153);">
-                <img src="<?= base_url() ?>/template/a/assets/img/paket.png" style="width: 298px; height: 190px; margin-bottom: -100px;">
+                <img src="<?= base_url() ?>/template/landingpage/assets/img/paket.png" style="width: 298px; height: 190px; margin-bottom: -100px;">
                 <h1 class=" card-title text-center">Paket B</h1>
                 <p class="card-text text-center">25 - 30 Tanaman</p>
 
@@ -418,7 +418,7 @@
                 <h1>C</h1>
               </div>
               <div class="flip-card-back" style="background-color: rgb(240, 128, 128);">
-                <img src="<?= base_url() ?>/template/a/assets/img/paket.png" style="width: 298px; height: 190px; margin-bottom: -100px;">
+                <img src="<?= base_url() ?>/template/landingpage/assets/img/paket.png" style="width: 298px; height: 190px; margin-bottom: -100px;">
                 <h1 class=" card-title text-center">Paket C</h1>
                 <p class="card-text text-center">50 - 60 Tanaman</p>
 
@@ -437,7 +437,7 @@
                   <h1>D</h1>
                 </div>
                 <div class="flip-card-back" style="background-color: rgb(252, 165, 3);">
-                  <img src="<?= base_url() ?>/template/a/assets/img/paket.png" style="width: 298px; height: 190px; margin-bottom: -100px;">
+                  <img src="<?= base_url() ?>/template/landingpage/assets/img/paket.png" style="width: 298px; height: 190px; margin-bottom: -100px;">
                   <h1 class=" card-title text-center">Paket D</h1>
                   <p class="card-text text-center">100 - 120 Tanaman</p>
 
@@ -451,7 +451,7 @@
                   <h1>E</h1>
                 </div>
                 <div class="flip-card-back" style="background-color: rgb(205, 133, 63);">
-                  <img src="<?= base_url() ?>/template/a/assets/img/paket.png" style="width: 298px; height: 190px; margin-bottom: -100px;">
+                  <img src="<?= base_url() ?>/template/landingpage/assets/img/paket.png" style="width: 298px; height: 190px; margin-bottom: -100px;">
                   <h1 class=" card-title text-center">Paket E</h1>
                   <p class="card-text text-center">150 - 200 Tanaman</p>
 
@@ -474,30 +474,30 @@
         </div>
         <div class="card-deck">
           <div class="card shadow " data-aos="fade-up" data-aos-delay="100">
-            <img src="<?= base_url() ?>/template/a/assets/img/testimoni.png" class="card-img-top" alt="Card img cap">
+            <img src="<?= base_url() ?>/template/landingpage/assets/img/testimoni.png" class="card-img-top" alt="Card img cap">
 
           </div>
           <div class="card shadow" data-aos="fade-up" data-aos-delay="200">
-            <img src="<?= base_url() ?>/template/a/assets/img/testimoni.png" class="card-img-top" alt="Card img cap">
+            <img src="<?= base_url() ?>/template/landingpage/assets/img/testimoni.png" class="card-img-top" alt="Card img cap">
 
           </div>
           <div class="card shadow" data-aos="fade-up" data-aos-delay="300">
-            <img src="<?= base_url() ?>/template/a/assets/img/testimoni.png" class="card-img-top" alt="Card img cap">
+            <img src="<?= base_url() ?>/template/landingpage/assets/img/testimoni.png" class="card-img-top" alt="Card img cap">
 
           </div>
         </div>
         <br>
         <div class="card-deck">
           <div class="card shadow " data-aos="fade-up" data-aos-delay="400">
-            <img src="<?= base_url() ?>/template/a/assets/img/testimoni.png" class="card-img-top" alt="Card img cap">
+            <img src="<?= base_url() ?>/template/landingpage/assets/img/testimoni.png" class="card-img-top" alt="Card img cap">
 
           </div>
           <div class="card shadow" data-aos="fade-up" data-aos-delay="500">
-            <img src="<?= base_url() ?>/template/a/assets/img/testimoni.png" class="card-img-top" alt="Card img cap">
+            <img src="<?= base_url() ?>/template/landingpage/assets/img/testimoni.png" class="card-img-top" alt="Card img cap">
 
           </div>
           <div class="card shadow" data-aos="fade-up" data-aos-delay="600">
-            <img src="<?= base_url() ?>/template/a/assets/img/testimoni.png" class="card-img-top" alt="Card img cap">
+            <img src="<?= base_url() ?>/template/landingpage/assets/img/testimoni.png" class="card-img-top" alt="Card img cap">
 
           </div>
         </div>
@@ -601,20 +601,20 @@
 
 
   <!-- Vendor JS Files -->
-  <script src="<?= base_url() ?>/template/a/assets/vendor/jquery/jquery.min.js"></script>
-  <script src="<?= base_url() ?>/template/a/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="<?= base_url() ?>/template/a/assets/vendor/jquery.easing/jquery.easing.min.js"></script>
-  <script src="<?= base_url() ?>/template/a/assets/vendor/jquery.easing/jquery.easing.min.js"></script>
-  <script src="<?= base_url() ?>/template/a/assets/vendor/jquery.easing/jquery.easing.min.js"></script>
-  <script src="<?= base_url() ?>/template/a/assets/vendor/php-email-form/validate.js"></script>
-  <script src="<?= base_url() ?>/template/a/assets/vendor/waypoints/jquery.waypoints.min.js"></script>
-  <script src="<?= base_url() ?>/template/a/assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="<?= base_url() ?>/template/a/assets/vendor/venobox/venobox.min.js"></script>
-  <script src="<?= base_url() ?>/template/a/assets/vendor/owl.carousel/owl.carousel.min.js"></script>
-  <script src="<?= base_url() ?>/template/a/assets/vendor/aos/aos.js"></script>
+  <script src="<?php echo base_url('template/landingpage/assets/vendor/jquery/jquery.min.js'); ?>"></script>
+  <script src="<? echo base_url('template/landingpage/assets/vendor/bootstrap/js/bootstrap.bundle.min.js'); ?>"></script>
+  <script src="<?= base_url() ?>/template/landingpage/assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <script src="<?= base_url() ?>/template/landingpage/assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <script src="<?= base_url() ?>/template/landingpage/assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <script src="<?= base_url() ?>/template/landingpage/assets/vendor/php-email-form/validate.js"></script>
+  <script src="<?= base_url() ?>/template/landingpage/assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+  <script src="<?= base_url() ?>/template/landingpage/assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="<?= base_url() ?>/template/landingpage/assets/vendor/venobox/venobox.min.js"></script>
+  <script src="<?= base_url() ?>/template/landingpage/assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+  <script src="<?= base_url() ?>/template/landingpage/assets/vendor/aos/aos.js"></script>
 
   <!-- Template Main JS File -->
-  <script src="<?= base_url() ?>/template/a/assets/js/main.js"></script>
+  <script src="<?php echo base_url('template/landingpage/assets/js/main.js'); ?>"></script>
 </body>
 
 </html>
