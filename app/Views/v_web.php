@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Agrowisata Porlak Parna</title>
+  <title>Argowisata Porlak Parna</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
   <!-- logosmall -->
@@ -15,15 +15,15 @@
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Jost:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
-  <link href="<?= base_url() ?>/template/landingpage/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="<?= base_url() ?>/template/landingpage/assets/vendor/icofont/icofont.min.css" rel="stylesheet">
-  <link href="<?= base_url() ?>/template/landingpage/assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="<?= base_url() ?>/template/landingpage/assets/vendor/remixicon/remixicon.css" rel="stylesheet">
-  <link href="<?= base_url() ?>/template/landingpage/assets/vendor/venobox/venobox.css" rel="stylesheet">
-  <link href="<?= base_url() ?>/template/landingpage/assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
-  <link href="<?= base_url() ?>/template/landingpage/assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="<?= base_url('template/landingpage/assets/vendor/bootstrap/css/bootstrap.min.css'); ?>" rel="stylesheet">
+  <link href="<?= base_url('template/landingpage/assets/vendor/icofont/icofont.min.css'); ?>" rel="stylesheet">
+  <link href="<?= base_url('template/landingpage/assets/vendor/boxicons/css/boxicons.min.css'); ?>" rel="stylesheet">
+  <link href="<?= base_url('template/landingpage/assets/vendor/remixicon/remixicon.css'); ?>" rel="stylesheet">
+  <link href="<?= base_url('template/landingpage/assets/vendor/venobox/venobox.css'); ?>" rel="stylesheet">
+  <link href="<?= base_url('template/landingpage/assets/vendor/owl.carousel/assets/owl.carousel.min.css'); ?>" rel="stylesheet">
+  <link href="<?= base_url('template/landingpage/assets/vendor/aos/aos.css'); ?>" rel="stylesheet">
   <!-- Template Main CSS File -->
-  <link href="<?= base_url() ?>/template/landingpage/assets/css/style.css" rel="stylesheet">
+  <link href="<?= base_url('template/landingpage/assets/css/style.css'); ?>" rel="stylesheet">
 
   <!-- =======================================================
   * Template Name: Arsha - v2.2.1
@@ -40,13 +40,22 @@
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top ">
     <div class="container d-flex align-items-center">
+<<<<<<< HEAD
       <h1 class="logo mr-auto"><a href="<?php route_to('home'); ?>">Agrowisata Porlak Parna</a></h1>
+=======
+      <h1 class="logo mr-auto"><a href="index.html">Argowisata Porlak Parna</a></h1>
+>>>>>>> 9ef17f7d7014349e7d5f194c6c802345800d3fef
       <!-- Uncomment below if you prefer to use an image logo -->
-      <!-- <a href="index.html" class="logo mr-auto"><img src="<template/a/assets/img/logo-app.png" alt="" class="img-fluid"></a> -->
+      <!-- <a href="index.html" class="logo mr-auto"><img src="<template/landingpage/assets/img/logo-app.png" alt="" class="img-fluid"></a> -->
       <nav class="nav-menu d-none d-lg-block">
         <ul>
+<<<<<<< HEAD
           <li class="active"><a href="<?php route_to('home'); ?>">Home</a></li>
           <li><a href="#profile">Tentang Danau Toba</a></li>
+=======
+          <li class="active"><a href="http://localhost/ci4_sistemlogin/public/web">Home</a></li>
+          <li><a href="#profile">Tentanng Danau Toba</a></li>
+>>>>>>> 9ef17f7d7014349e7d5f194c6c802345800d3fef
           <li><a href="#product">Product</a></li>
           <li><a href="#pkbl">PKBL</a></li>
           <li class="drop-down"><a href="#donatur">Donatur</a>
@@ -63,6 +72,7 @@
         </ul>
       </nav>
       <!-- .nav-menu -->
+<<<<<<< HEAD
       <a href="<?= base_url('auth/login') ?>" class="get-started-btn scrollto">Login</a>
       </divlandingpage </header> <!-- End Header -->
 
@@ -94,6 +104,33 @@
             <div class="section-title">
               <h2>Tentang Danau Toba</h2>
             </div>
+=======
+      <a href="<?= base_url('auth_login') ?>" class="get-started-btn scrollto">Login</a>
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex align-items-center">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
+          <h1>Gerakan Penyelamat Danau Toba</h1>
+          <a data-aos="fade-up " data-aos-delay="2000">
+            <h2>Jika Anda merawat saya hari ini,itu berarti Anda sedang mempersiapkan hidup Anda untuk 20 tahun ke depan.</h2>
+          </a>
+          <div class="d-lg-flex" data-aos="fade-up" data-aos-delay="2000">
+            <a href="<?= base_url('auth/register') ?>" class="btn-get-started scrollto">Mari Bergabung</a>
+            <a href="https://youtu.be/LCZvgQkS_yM" class="venobox btn-watch-video" data-vbtype="video" data-autoplay="true"> Watch Video <i class="icofont-play-alt-2"></i></a>
+          </div>
+        </div>
+        <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
+          <img src="<?= base_url() ?>/template/landingpage/assets/img/logo.png" class="img-fluid animated" alt="">
+        </div>
+      </div>
+    </div>
+  </section><!-- End Hero -->
+  <main id="main">
+>>>>>>> 9ef17f7d7014349e7d5f194c6c802345800d3fef
 
             <div class="row content text-justify">
               <div class="col-lg-6">
@@ -107,12 +144,21 @@
                 <p>Di tengah Danau Toba, terdapat sebuah pulau yang bernama Pulau Samosir. Pulau Samosir memiliki dua danau kecil yaitu Danau Aek Natonang dan Danau Sidihoni.</p>
               </div>
 
+<<<<<<< HEAD
               <div class="col-lg-6 pt-4 pt-lg-0">
                 <p> Pulau Samosir yang memiliki luas hampir sama dengan luas negara Singapura ini bukanlah pulau kosong, pulau ini menjadi tempat tinggal suku Batak Samosir. Suku Batak yang tinggal d Pulau Samosir masih memegang teguh kepercayaan leluhur. Mereka juga masih menjalankan berbagai ritual yang biasa dilakukan nenek moyang dahulu.</p>
                 <p>Di Pulau Samosir terdapat dua desa yang banyak dikunjungi wisatawan yaitu Tomok dan Tuktuk. Tomok merupakan desa yang memiliki banyak objek wisata menarik seperti Makam Raja Sidabutar, Museum Batak dan pertunjukan tari boneka Sigale-gale yang populer. Berbeda dengan Tomok yang memiliki banyak tempat wisata sejarah, Tuktuk adalah desa di mana terdapat banyak penginapan untuk wisatawan.</p>
                 <p>Tak hanya Pulau Samosir yang menjadi daya tarik tempat wisata ini, Danau Toba juga dikelilingi oleh hutan pinus dan beberapa air terjun dan juga pemandian air hangat di dalam hutan. Pemandangan di sekeliling danau ini sangat indah dengan udara yang relatif sejuk sehingga Anda akan betah berlama-lama di sini.</p>
                 <p>Bagi masyarakat Batak yang berada di sekitar lokasi danau ini, Danau Toba bukan hanya tempat wisata alam yang memiliki keindahan luar biasa. Mereka percaya bahwa Danau Toba menjadi tempat bersemayamnya tujuh dewi suku Batak atau yang biasa disebut dengan Namborru. Setiap kali akan melakukan kegiatan di sekitar danau, masyarakat akan berdoa dan meminta izin terlebih dahulu agar acara mendapat berkah dan dapat berjalan dengan lancar.</p>
                 <a href="#" class="btn-learn-more">Learn More</a>
+=======
+        <div class="row content text-justify">
+          <div class="col-lg-6">
+            <div class="card shadow gallery-item" data-aos="fade-up" data-aos-delay="200">
+              <div class="gallery-img"><img src="<?= base_url('template/landingpage/assets/img/t3.jpeg'); ?>" class="card-img-top"></div>
+              <div class="title text-center">
+                <p>Danau Toba, Sumatra Utara</p>
+>>>>>>> 9ef17f7d7014349e7d5f194c6c802345800d3fef
               </div>
             </div>
 
@@ -128,6 +174,7 @@
               <p>Bersama kita tanami lahan gundul dengan tanaman produktif untuk menghijaukan lingkungan Danau Toba sekaligus mendatangkan wisatawan menikmati keindahan Danau Toba sembari menikmati hasil tanaman berupa buah-buahan segar maupun olahan.</p>
             </div>
 
+<<<<<<< HEAD
             <div class="row text-center">
               <div class="col-xl-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
                 <div class="icon-box">
@@ -139,9 +186,20 @@
                     </div>
                   </div>
                   <p>Melakukan penghijauan dengan cara menanam pohon buah-buahan di atas tanah milik petani dan tanah terlantar berbasis porlak. Seluruh hasil porlak menjadi hak petani dan bebas dijual sesuai keinginan petani.</p>
+=======
+        <div class="row text-center">
+          <div class="col-xl-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bxs-tree bg-lg bx-flashing"></i></div>
+              <h4><a href="">Porlak</a></h4>
+              <div class="card-group">
+                <div class="card shadow gallery-item" data-aos="fade-up" data-aos-delay="600">
+                  <div class="gallery-img"><img src="<?= base_url() ?>/template/landingpage/assets/img/pohon.jpg" class="card-img-top"></div>
+>>>>>>> 9ef17f7d7014349e7d5f194c6c802345800d3fef
                 </div>
               </div>
 
+<<<<<<< HEAD
               <div class="col-xl-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
                 <div class="icon-box">
                   <div class="icon"><i class="bx bxs-droplet bg-lg bx-fade-up"></i></div>
@@ -152,9 +210,19 @@
                     </div>
                   </div>
                   <p>Bibit yang akan ditanam adalah bibit unggul yang telah disertifikasi oleh instansi yang berwenang. Untuk tujuan ini perusahaan akan bermitra dengan petani mengembangkan pembibitan.</p>
+=======
+          <div class="col-xl-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bxs-droplet bg-lg bx-fade-up"></i></div>
+              <h4><a href="">Bibit</a></h4>
+              <div class="card-group">
+                <div class="card shadow gallery-item" data-aos="fade-up" data-aos-delay="600">
+                  <div class="gallery-img"><img src="<?= base_url() ?>/template/landingpage/assets/img/durian.png" class="card-img-top"></div>
+>>>>>>> 9ef17f7d7014349e7d5f194c6c802345800d3fef
                 </div>
               </div>
 
+<<<<<<< HEAD
               <div class="col-xl-4 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="300">
                 <div class="icon-box">
                   <div class="icon"><i class="bx bxs-florist bg-lg bx-fade-down"></i></div>
@@ -165,12 +233,22 @@
                     </div>
                   </div>
                   <p>Pupuk kompos tanaman akan dipenuhi dari gulma enceng gondok yang dimasukkan kedalam Biopori. Kebutuhan enceng gondok ini akan di supply melalui kemitraan dengan petani.</p>
+=======
+          <div class="col-xl-4 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="300">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bxs-florist bg-lg bx-fade-down"></i></div>
+              <h4><a href="">Pupuk Organik</a></h4>
+              <div class="card-group">
+                <div class="card shadow gallery-item" data-aos="fade-up" data-aos-delay="600">
+                  <div class="gallery-img"><img src="<?= base_url() ?>/template/landingpage/assets/img/kompos.png" class="card-img-top"></div>
+>>>>>>> 9ef17f7d7014349e7d5f194c6c802345800d3fef
                 </div>
               </div>
 
             </div>
 
           </div>
+<<<<<<< HEAD
         </section><!-- End Services Section -->
 
 
@@ -186,9 +264,43 @@
                 <a class="cta-btn align-middle" href="<?= base_url('auth_login') ?>">Gabung Sekarang</a>
               </div>
             </div>
+=======
+          <div class="col-lg-3 cta-btn-container text-center">
+            <a class="cta-btn align-middle" href="<?= base_url('auth/register') ?>">Gabung Sekarang</a>
+          </div>
+        </div>
+      </div>
+    </section><!-- End Cta Section -->
+
+
+    <!-- PKBL ( Program Kemitraan Bina Lingkungan ) -->
+    <section id="pkbl" class="donation section-bg">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <h2>Program Kemitraan Bina Lingkungan ( PKBL )</h2>
+          <h3 class="text-center">Apa itu PKBL ?</h3>
+          <p>PKBL atau Program Kemitraan Bina Lingkungan adalah sebuah program untuk meningkatkan
+            kemampuan usaha kecil agar menjadi tangguh dan mandiri.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- end PKBL -->
+    <!-- ======= Cta Section ======= -->
+    <section id="cta" class="cta">
+      <div class="container" data-aos="zoom-in">
+        <div class="row">
+          <div class="col-lg-9 text-center text-lg-left">
+            <h3>Bergabung Membangun Danau Toba</h3>
+            <p> Kegiatan Pelestarian dan Pemberdayaan Ekonomi Kerakyatan di Kawasan Danau Toba melalui Gerakan 1000 Porlak Tanaman Produktif dan Agrowisata. Siapapun Anda dapat berkontribusi membangun Danau Toba. Danau Toba dan Pulau Samosir adalah aset bangsa dan aset kita.</p>
+          </div>
+          <div class="col-lg-3 cta-btn-container text-center">
+            <a class="cta-btn align-middle" href="<?= base_url('auth/register') ?>">Gabung Sekarang</a>
+>>>>>>> 9ef17f7d7014349e7d5f194c6c802345800d3fef
           </div>
         </section><!-- End Cta Section -->
 
+<<<<<<< HEAD
 
         <!-- PKBL ( Program Kemitraan Bina Lingkungan ) -->
         <section id="pkbl" class="donation section-bg">
@@ -200,6 +312,27 @@
                 kemampuan usaha kecil agar menjadi tangguh dan mandiri.
               </p>
             </div>
+=======
+    <!-- ======= Donation Section ======= -->
+    <section id="donatur" class="donatur section-bg">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <h2>Donatur</h2>
+          <p>Anda tidak perlu turut menanam pohon, cukup berpartisipasi memberikan Donasi penanaman pohon untuk dikelola oleh keluarga yang Anda tunjuk. Kami akan melakukan penanaman dan pemeliharaan selama xx bulan di lahan keluarga yang anda tunjuk.<p>
+        </div>
+      </div>
+    </section><!-- ======= End Donation Section ======= -->
+    <!-- ======= Cta Section ======= -->
+    <section id="cta" class="cta">
+      <div class="container" data-aos="zoom-in">
+        <div class="row">
+          <div class="col-lg-9 text-center text-lg-left">
+            <h3>Bergabung Membangun Danau Toba</h3>
+            <p> Kegiatan Pelestarian dan Pemberdayaan Ekonomi Kerakyatan di Kawasan Danau Toba melalui Gerakan 1000 Porlak Tanaman Produktif dan Agrowisata. Siapapun Anda dapat berkontribusi membangun Danau Toba. Danau Toba dan Pulau Samosir adalah aset bangsa dan aset kita.</p>
+          </div>
+          <div class="col-lg-3 cta-btn-container text-center">
+            <a class="cta-btn align-middle" href="<?= base_url('auth/register') ?>">Gabung Sekarang</a>
+>>>>>>> 9ef17f7d7014349e7d5f194c6c802345800d3fef
           </div>
         </section>
         <!-- end PKBL -->
@@ -211,20 +344,42 @@
                 <h3>Bergabung Membangun Danau Toba</h3>
                 <p> Kegiatan Pelestarian dan Pemberdayaan Ekonomi Kerakyatan di Kawasan Danau Toba melalui Gerakan 1000 Porlak Tanaman Produktif dan Agrowisata. Siapapun Anda dapat berkontribusi membangun Danau Toba. Danau Toba dan Pulau Samosir adalah aset bangsa dan aset kita.</p>
               </div>
+<<<<<<< HEAD
               <div class="col-lg-3 cta-btn-container text-center">
                 <a class="cta-btn align-middle" href="<?= base_url('auth/register') ?>">Gabung Sekarang</a>
+=======
+              <div class="flip-card-back">
+                <img src="<?= base_url() ?>/template/landingpage/assets/img/donasi.jpeg" style="width: 298px; height: 190px; margin-bottom: -100px;">
+                <h5 class=" card-title text-center">Paket A</h5>
+                <p class="card-text text-center">IDR. 1.000.000</p>
+
+>>>>>>> 9ef17f7d7014349e7d5f194c6c802345800d3fef
               </div>
             </div>
           </div>
         </section>
         <!-- End Cta Section -->
 
+<<<<<<< HEAD
         <!-- ======= Donation Section ======= -->
         <section id="donatur" class="donatur section-bg">
           <div class="container" data-aos="fade-up">
             <div class="section-title">
               <h2>Donatur</h2>
               <p>Anda tidak perlu turut menanam pohon, cukup berpartisipasi memberikan Donasi penanaman pohon untuk dikelola oleh keluarga yang Anda tunjuk. Kami akan melakukan penanaman dan pemeliharaan selama xx bulan di lahan keluarga yang anda tunjuk.<p>
+=======
+            <div class="flip-card-inner ">
+              <div class="flip-card-front">
+                <h5 style="font-family: 'Times New Roman', Times, serif; margin-top:100px">PAKET DONASI
+                </h5>
+                <h1>B</h1>
+              </div>
+              <div class="flip-card-back" style="background-color: rgb(119, 136, 153);">
+                <img src="<?= base_url() ?>/template/landingpage/assets/img/paket.png" style="width: 298px; height: 190px; margin-bottom: -100px;">
+                <h5 class=" card-title text-center">Paket B</h5>
+                <p class="card-text text-center">IDR. 2.500.000</p>
+              </div>
+>>>>>>> 9ef17f7d7014349e7d5f194c6c802345800d3fef
             </div>
           </div>
         </section><!-- ======= End Donation Section ======= -->
@@ -236,8 +391,15 @@
                 <h3>Bergabung Membangun Danau Toba</h3>
                 <p> Kegiatan Pelestarian dan Pemberdayaan Ekonomi Kerakyatan di Kawasan Danau Toba melalui Gerakan 1000 Porlak Tanaman Produktif dan Agrowisata. Siapapun Anda dapat berkontribusi membangun Danau Toba. Danau Toba dan Pulau Samosir adalah aset bangsa dan aset kita.</p>
               </div>
+<<<<<<< HEAD
               <div class="col-lg-3 cta-btn-container text-center">
                 <a class="cta-btn align-middle" href="<?= base_url('auth/register') ?>">Gabung Sekarang</a>
+=======
+              <div class="flip-card-back" style="background-color: rgb(240, 128, 128);">
+                <img src="<?= base_url() ?>/template/landingpage/assets/img/paket.png" style="width: 298px; height: 190px; margin-bottom: -100px;">
+                <h5 class=" card-title text-center">Paket C</h5>
+                <p class="card-text text-center">IDR. 5.000.000</p>
+>>>>>>> 9ef17f7d7014349e7d5f194c6c802345800d3fef
               </div>
             </div>
           </div>
@@ -264,6 +426,7 @@
 
                   </div>
                 </div>
+<<<<<<< HEAD
               </div>
               <div class="flip-card ">
 
@@ -291,6 +454,13 @@
                     <h5 class=" card-title text-center">Paket C</h5>
                     <p class="card-text text-center">IDR. 5.000.000</p>
                   </div>
+=======
+                <div class="flip-card-back" style="background-color: rgb(252, 165, 3);">
+                  <img src="<?= base_url() ?>/template/landingpage/assets/img/paket.png" style="width: 298px; height: 190px; margin-bottom: -100px;">
+                  <h5 class=" card-title text-center">Paket D</h5>
+                  <p class="card-text text-center">IDR. 10.000.000</p>
+
+>>>>>>> 9ef17f7d7014349e7d5f194c6c802345800d3fef
                 </div>
               </div>
             </div>
@@ -312,6 +482,7 @@
                     </div>
                   </div>
                 </div>
+<<<<<<< HEAD
                 <div class="flip-card">
                   <div class="flip-card-inner">
                     <div class="flip-card-front">
@@ -325,6 +496,13 @@
 
                     </div>
                   </div>
+=======
+                <div class="flip-card-back" style="background-color: rgb(205, 133, 63);">
+                  <img src="<?= base_url() ?>/template/landingpage/assets/img/paket.png" style="width: 298px; height: 190px; margin-bottom: -100px;">
+                  <h5 class=" card-title text-center">Paket E</h5>
+                  <p class="card-text text-center">IDR. 25.000.000</p>
+
+>>>>>>> 9ef17f7d7014349e7d5f194c6c802345800d3fef
                 </div>
 
               </div>
@@ -591,6 +769,7 @@
           </div>
         </div>
       </div>
+<<<<<<< HEAD
     </footer><!-- End Footer -->
     <!-- All the links in the footer should remain intact. -->
     <!-- You can delete the links only if you purchased the pro version. -->
@@ -616,6 +795,34 @@
 
     <!-- Template Main JS File -->
     <script src="<?= base_url() ?>/template/landingpage/assets/js/main.js"></script>
+=======
+    </div>
+  </footer><!-- End Footer -->
+  <!-- All the links in the footer should remain intact. -->
+  <!-- You can delete the links only if you purchased the pro version. -->
+  <!-- Licensing information: https://bootstrapmade.com/license/ -->
+  <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/arsha-free-bootstrap-html-template-corporate/ -->
+
+  <a href="#" class="back-to-top"><i class="ri-arrow-up-line"></i></a>
+  <div id="preloader"></div>
+
+
+  <!-- Vendor JS Files -->
+  <script src="<?= base_url() ?>/template/landingpage/assets/vendor/jquery/jquery.min.js"></script>
+  <script src="<?= base_url('template/landingpage/assets/vendor/bootstrap/js/bootstrap.bundle.min.js'); ?>"></script>
+  <script src="<?= base_url() ?>/template/landingpage/assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <script src="<?= base_url() ?>/template/landingpage/assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <script src="<?= base_url() ?>/template/landingpage/assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <script src="<?= base_url() ?>/template/landingpage/assets/vendor/php-email-form/validate.js"></script>
+  <script src="<?= base_url() ?>/template/landingpage/assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+  <script src="<?= base_url() ?>/template/landingpage/assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="<?= base_url() ?>/template/landingpage/assets/vendor/venobox/venobox.min.js"></script>
+  <script src="<?= base_url() ?>/template/landingpage/assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+  <script src="<?= base_url() ?>/template/landingpage/assets/vendor/aos/aos.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="<?= base_url() ?>/template/landingpage/assets/js/main.js"></script>
+>>>>>>> 9ef17f7d7014349e7d5f194c6c802345800d3fef
 </body>
 
 </html>

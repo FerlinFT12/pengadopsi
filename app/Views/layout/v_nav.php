@@ -118,7 +118,7 @@
     <section class="content-header">
       <h1>
         <?= $title ?>
-        <small><img src="<?= base_url() ?>/template/a/assets/img/logo-app.png" alt="logo" width="120" class="shadow-light rounded-circle"></small>
+        <small><img src="<?= base_url() ?>/template/landingpage/assets/img/logo-app.png" alt="logo" width="120" class="shadow-light rounded-circle"></small>
       </h1>
       <ol class="breadcrumb">
         <li><a href="<?= base_url('home') ?>"><i class="fa fa-dashboard"></i>Dashboard</a></li>
