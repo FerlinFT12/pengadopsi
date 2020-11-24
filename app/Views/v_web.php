@@ -44,7 +44,7 @@
       <nav class="nav-menu d-none d-lg-block">
         <ul>
           <li class="active"><a href="<?php echo base_url(); ?>">Home</a></li>
-          <li><a href="#profile">Tentanng Danau Toba</a></li>
+          <li><a href="#profile">Tentang Danau Toba</a></li>
           <li><a href="#product">Product</a></li>
           <li><a href="#pkbl">PKBL</a></li>
           <li class="drop-down"><a href="#donatur">Donatur</a>
@@ -241,136 +241,6 @@
         </div>
       </div>
     </section><!-- End Cta Section -->
-    <!-- paket -->
-    <section id="paket" class="paket">
-      <div class="container" data-aos="fade-up">
-        <div class="section-title">
-          <h2>Paket Tersedia</h2>
-          <p>Setelah pemilik lahan teredukasi dengan baik, pemeliharaan kami serahkan kepada pemilik lahan. Semua hasil tanaman tersebut akan menjadi hak pemilik lahan Anda sebagai Donatur akan diberikan Sertifikat Penghargaan dan nama Anda diabadikan pada tanaman di lahan keluarga yang Anda tunjuk. Semua dokumentasi dan progress tanaman tersebut akan dilaporkan secara online di Website Kami.</p>
-        </div>
-        <!-- Flip -->
-        <div class="card-deck">
-          <div class="flip-card">
-            <div class="flip-card-inner">
-              <div class="flip-card-front">
-                <h5 style="font-family: 'Times New Roman', Times, serif; margin-top:100px">PAKET DONASI</h5>
-                <h1>A</h1>
-              </div>
-              <div class="flip-card-back">
-                <img src="<?= base_url() ?>/template/landingpage/assets/img/donasi.jpeg" style="width: 298px; height: 190px; margin-bottom: -100px;">
-                <h5 class=" card-title text-center">Paket A</h5>
-                <p class="card-text text-center">IDR. 1.000.000</p>
-
-              </div>
-            </div>
-          </div>
-          <div class="flip-card ">
-
-            <div class="flip-card-inner ">
-              <div class="flip-card-front">
-                <h5 style="font-family: 'Times New Roman', Times, serif; margin-top:100px">PAKET DONASI
-                </h5>
-                <h1>B</h1>
-              </div>
-              <div class="flip-card-back" style="background-color: rgb(119, 136, 153);">
-                <img src="<?= base_url() ?>/template/landingpage/assets/img/paket.png" style="width: 298px; height: 190px; margin-bottom: -100px;">
-                <h5 class=" card-title text-center">Paket B</h5>
-                <p class="card-text text-center">IDR. 2.500.000</p>
-              </div>
-            </div>
-          </div>
-          <div class="flip-card">
-            <div class="flip-card-inner">
-              <div class="flip-card-front">
-                <h5 style="font-family: 'Times New Roman', Times, serif; margin-top:100px">PAKET DONASI</h5>
-                <h1>C</h1>
-              </div>
-              <div class="flip-card-back" style="background-color: rgb(240, 128, 128);">
-                <img src="<?= base_url() ?>/template/landingpage/assets/img/paket.png" style="width: 298px; height: 190px; margin-bottom: -100px;">
-                <h5 class=" card-title text-center">Paket C</h5>
-                <p class="card-text text-center">IDR. 5.000.000</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <br>
-        <!-- Bagian 2 -->
-        <div class="column">
-          <div class="card-deck">
-            <div class=" flip-card">
-              <div class="flip-card-inner">
-                <div class="flip-card-front">
-                  <h5 style="font-family: 'Times New Roman', Times, serif; margin-top:100px">PAKET DONASI</h5>
-                  <h1>D</h1>
-                </div>
-                <div class="flip-card-back" style="background-color: rgb(252, 165, 3);">
-                  <img src="<?= base_url() ?>/template/landingpage/assets/img/paket.png" style="width: 298px; height: 190px; margin-bottom: -100px;">
-                  <h5 class=" card-title text-center">Paket D</h5>
-                  <p class="card-text text-center">IDR. 10.000.000</p>
-
-                </div>
-              </div>
-            </div>
-            <div class="flip-card">
-              <div class="flip-card-inner">
-                <div class="flip-card-front">
-                  <h5 style="font-family: 'Times New Roman', Times, serif; margin-top:100px">PAKET DONASI</h5>
-                  <h1>E</h1>
-                </div>
-                <div class="flip-card-back" style="background-color: rgb(205, 133, 63);">
-                  <img src="<?= base_url() ?>/template/landingpage/assets/img/paket.png" style="width: 298px; height: 190px; margin-bottom: -100px;">
-                  <h5 class=" card-title text-center">Paket E</h5>
-                  <p class="card-text text-center">IDR. 25.000.000</p>
-
-                </div>
-              </div>
-            </div>
-
-          </div>
-        </div>
-
-      </div>
-      </div>
-    </section><!-- End Donation Section -->
-
-    <!-- ======= Mitra Section ======= -->
-    <section id="mitra" class="mitra section-bg">
-      <div class="container" data-aos="fade-up">
-        <div class="section-title">
-          <h2>Mitra</h2>
-          <p>Menyediakan bibit unggul bersertifikat melalui usaha pembibitan bermitra dengan petani dibawah supervise perusahaan. Bibit yang akan ditanam adalah bibit unggul yang telah disertifikasi oleh instansi yang berwenang. Untuk tujuan ini perusahaan akan bermitra dengan petani mengembangkan pembibitan.</p>
-        </div>
-      </div>
-    </section><!-- End Mitra Section -->
-
-    <!-- ======= Cta Section ======= -->
-    <section id="cta" class="cta">
-      <div class="container" data-aos="zoom-in">
-        <div class="row">
-          <div class="col-lg-9 text-center text-lg-left">
-            <h3>Bergabung Membangun Danau Toba</h3>
-            <p> Kegiatan Pelestarian dan Pemberdayaan Ekonomi Kerakyatan di Kawasan Danau Toba melalui Gerakan 1000 Porlak Tanaman Produktif dan Agrowisata. Siapapun Anda dapat berkontribusi membangun Danau Toba. Danau Toba dan Pulau Samosir adalah aset bangsa dan aset kita.</p>
-          </div>
-          <div class="col-lg-3 cta-btn-container text-center">
-            <a class="cta-btn align-middle" href="<?php echo route_to('register'); ?>">Gabung Sekarang</a>
-          </div>
-        </div>
-      </div>
-    </section><!-- End Cta Section -->
-
-    <!-- ======= Pengadopsi Section ======= -->
-    <section id="pengadopsi" class="donation section-bg">
-      <div class="container" data-aos="fade-up">
-        <div class="section-title">
-          <h2>Adopsi Pohon</h2>
-          <p>Perusahaan memberi kesempatan kepada individu dan organisasi, baik
-            dalam maupun luar negeri untuk mengadopsi pohon yang akan ditanam
-            dengan kompensasi memberikan Sertifikat dan pengabadian nama di
-            porlak yang diadopsi.</p>
-        </div>
-      </div>
-    </section>
-    <!-- End Pengadopsi Section -->
     <!-- ======= Paket Section ======= -->
     <section id="adopsi" class="adopsi">
       <div class="container" data-aos="fade-up">
@@ -465,6 +335,44 @@
     </section>
     <!-- End Paket Section -->
 
+    <!-- ======= Mitra Section ======= -->
+    <section id="mitra" class="mitra section-bg">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <h2>Mitra</h2>
+          <p>Menyediakan bibit unggul bersertifikat melalui usaha pembibitan bermitra dengan petani dibawah supervise perusahaan. Bibit yang akan ditanam adalah bibit unggul yang telah disertifikasi oleh instansi yang berwenang. Untuk tujuan ini perusahaan akan bermitra dengan petani mengembangkan pembibitan.</p>
+        </div>
+      </div>
+    </section><!-- End Mitra Section -->
+
+    <!-- ======= Cta Section ======= -->
+    <section id="cta" class="cta">
+      <div class="container" data-aos="zoom-in">
+        <div class="row">
+          <div class="col-lg-9 text-center text-lg-left">
+            <h3>Bergabung Membangun Danau Toba</h3>
+            <p> Kegiatan Pelestarian dan Pemberdayaan Ekonomi Kerakyatan di Kawasan Danau Toba melalui Gerakan 1000 Porlak Tanaman Produktif dan Agrowisata. Siapapun Anda dapat berkontribusi membangun Danau Toba. Danau Toba dan Pulau Samosir adalah aset bangsa dan aset kita.</p>
+          </div>
+          <div class="col-lg-3 cta-btn-container text-center">
+            <a class="cta-btn align-middle" href="<?php echo route_to('register'); ?>">Gabung Sekarang</a>
+          </div>
+        </div>
+      </div>
+    </section><!-- End Cta Section -->
+
+    <!-- ======= Pengadopsi Section ======= -->
+    <section id="pengadopsi" class="donation section-bg">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <h2>Adopsi Pohon</h2>
+          <p>Perusahaan memberi kesempatan kepada individu dan organisasi, baik
+            dalam maupun luar negeri untuk mengadopsi pohon yang akan ditanam
+            dengan kompensasi memberikan Sertifikat dan pengabadian nama di
+            porlak yang diadopsi.</p>
+        </div>
+      </div>
+    </section>
+    <!-- End Pengadopsi Section -->
     <!-- Testimoni Section -->
     <section id="testimoni" class="paket">
       <div class="container" data-aos="fade-up">
@@ -598,6 +506,7 @@
 
   <a href="#" class="back-to-top"><i class="ri-arrow-up-line"></i></a>
   <div id="preloader"></div>
+
 
   <!-- Vendor JS Files -->
   <script src="<?= base_url() ?>/template/landingpage/assets/vendor/jquery/jquery.min.js"></script>
