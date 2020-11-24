@@ -15,28 +15,19 @@
           <div class="box-body">
             <div class="form-group">
               <label>Nama Bibit</label>
-              <input type="text" name="namabibit" class="form-control" placeholder="Nama Bibit">
+              <input type="hidden" name="id" class="form-control" value="<?php echo $bibit['id']; ?>">
+              <input type="text" name="namabibit" class="form-control" value="<?php echo $bibit['namabibit']; ?>">
             </div>
             <div class="form-group">
               <label>Harga Satuan</label>
-              <input type="number" name="hargasatuan" class="form-control" placeholder="Harga Satuan">
+              <input type="number" name="hargasatuan" class="form-control" value="<?php echo $bibit['harga']; ?>">
             </div>
             <div class="form-group">
               <label>Satuan</label>
               <select name="satuan" class="form-control">
-                <option value="kg">Kg</option>
-                <option value="ons">Ons</option>
-                <option value="pohon">Pohon</option>
-                <option value="batang">Batang</option>
-                <option value="unit">Unit</option>
-                <option value="buah">Buah</option>
-                <option value="tunas">Tunas</option>
-                <option value="stek">Stek</option>
-                <option value="lt">Lt</option>
-                <option value="botol">Botol</option>
-                <option value="rumpun">Rumpun</option>
-                <option value="polybag">Polybag</option>
-                <option value="pohon">Pohon</option>
+                <?php foreach ($satuan as $item) : ?>
+                <option value="<?php if($bibit['satuan']==$item['id']) { ?> " selected><?php }  ?><?= $item['nama'] ?></option>
+                <?php endforeach; ?>
               </select>
             </div>
           </div>

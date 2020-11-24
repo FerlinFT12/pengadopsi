@@ -2,8 +2,22 @@
 
 namespace App\Controllers;
 
+use App\Models\BibitModel;
+use App\Models\PesananModel;
+
 class Pembibit extends BaseController
+
 {
+  public function __construct() {
+    // Mendeklarasikan class BibitModel menggunakan $this->bibit
+    $this->bibit = new BibitModel();
+    $this->pesanan = new PesananModel();
+    /* Catatan:
+    Apa yang ada di dalam function construct ini nantinya bisa digunakan
+    pada function di dalam class Bibit 
+    */
+  }
+
   public function index()
   {
     $data = array(
@@ -17,7 +31,8 @@ class Pembibit extends BaseController
   {
     $data = array(
       'title' => 'Halaman Pembibit',
-      'isi' => 'pembibit/v_menubibit'
+      'isi' => 'pembibit/bibit/v_menubibit',
+      'bibit' => $this->bibit->getBibit()
     );
     return view('layout/v_wrapper', $data);
   }
@@ -26,7 +41,8 @@ class Pembibit extends BaseController
   {
     $data = array(
       'title' => 'Halaman Pemesanan',
-      'isi' => 'pembibit/v_permintaanpesanan'
+      'isi' => 'pembibit/pesanan/v_permintaanpesanan',
+      'pesanan' => $this->pesanan->PermintaanPesanan()
     );
     return view('layout/v_wrapper', $data);
   }

@@ -4,20 +4,32 @@ namespace App\Controllers\Pembibit;
 
 use App\Controllers\BaseController;
 
-use App\Models\BibitModel;
-use App\Models\SatuanModel;
+use App\Models\PesananModel;
 
-class Bibit extends BaseController
+class Pesanan extends BaseController
 {
   public function __construct() {
-        // Mendeklarasikan class BibitModel menggunakan $this->bibit
-        $this->bibit = new BibitModel();
-        $this->satuan = new SatuanModel();
-        /* Catatan:
-        Apa yang ada di dalam function construct ini nantinya bisa digunakan
-        pada function di dalam class Bibit 
-        */
-    }
+    // Mendeklarasikan class BibitModel menggunakan $this->bibit
+    $this->pesanan = new PesananModel();
+    /* Catatan:
+    Apa yang ada di dalam function construct ini nantinya bisa digunakan
+    pada function di dalam class Bibit 
+    */
+  }
+
+  //Detail Permintaan
+  public function detailpermintaan($id)
+  {
+    // Memanggil function getBibit($id) dengan parameter $id di dalam BibitModel dan menampungnya di variabel array bibit
+    $data = array(
+      'title' => 'Detail Permintaan',
+      'isi' => 'pembibit/pesanan/v_detailpermintaan',
+      'pesanan' => $this->pesanan->detailpermintaan($id)
+    );
+
+    //echo json_encode($data);
+    return view('layout/v_wrapper', $data);
+  }
 
     public function menubibit()
   {
@@ -32,7 +44,6 @@ class Bibit extends BaseController
     //Tambah Bibit
   public function tambahbibit()
   {
-    
     $data = array(
       'title' => 'Tambah Bibit',
       'isi' => 'pembibit/bibit/v_tambahbibit',

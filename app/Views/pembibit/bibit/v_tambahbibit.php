@@ -24,19 +24,9 @@
             <div class="form-group">
               <label>Satuan</label>
               <select name="satuan" class="form-control">
-                <option value="kg">Kg</option>
-                <option value="ons">Ons</option>
-                <option value="pohon">Pohon</option>
-                <option value="batang">Batang</option>
-                <option value="unit">Unit</option>
-                <option value="buah">Buah</option>
-                <option value="tunas">Tunas</option>
-                <option value="stek">Stek</option>
-                <option value="lt">Lt</option>
-                <option value="botol">Botol</option>
-                <option value="rumpun">Rumpun</option>
-                <option value="polybag">Polybag</option>
-                <option value="pohon">Pohon</option>
+                <?php foreach ($satuan as $item) : ?>
+                <option value="<?= $item['id'] ?>"><?= $item['nama'] ?></option>
+                <?php endforeach; ?>
               </select>
             </div>
           </div>

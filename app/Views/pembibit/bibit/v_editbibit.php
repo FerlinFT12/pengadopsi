@@ -25,17 +25,9 @@
             <div class="form-group">
               <label>Satuan</label>
               <select name="satuan" class="form-control">
-                <option value="<?php if ($bibit['satuan'] == "kg") { selected?> "selected> Kg <?php } ?></option>
-                <option value="<?php if ($bibit['satuan'] == "ons") { ?> "selected> Ons <?php } ?></option>
-                <option value="<?php if ($bibit['satuan'] == "pohon") { ?> "selected> Pohon <?php } ?></option>
-                <option value="<?php if ($bibit['satuan'] == "unit") { ?> "selected> Unit <?php } ?></option>
-                <option value="<?php if ($bibit['satuan'] == "buah") { ?> "selected> Buah <?php } ?></option>
-                <option value="<?php if ($bibit['satuan'] == "tunas") { ?> "selected> Tunas <?php } ?></option>
-                <option value="<?php if ($bibit['satuan'] == "stek") { ?> "selected> Stek <?php } ?></option>
-                <option value="<?php if ($bibit['satuan'] == "liter") { ?> "selected> Liter <?php } ?></option>
-                <option value="<?php if ($bibit['satuan'] == "botol") { ?> "selected> Botol <?php } ?></option>
-                <option value="<?php if ($bibit['satuan'] == "rumpun") { ?> "selected> Rumpun <?php } ?></option>
-                <option value="<?php if ($bibit['satuan'] == "polybag") { ?> "selected> Polybag <?php } ?></option>
+                <?php foreach ($satuan as $item) : ?>
+                <option value="<?php echo $item['id'] ?>" <?php if($bibit['satuan']==$item['id']) { ?> selected <?php } ?>> <?= $item['nama'] ?></option>
+                <?php endforeach; ?>
               </select>
             </div>
           </div>

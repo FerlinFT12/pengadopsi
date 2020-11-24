@@ -36,7 +36,19 @@ $routes->get('/login', 'Auth::login',['as' => 'login']);
 $routes->get('/register', 'Auth::register',['as' => 'register']);
 
 $routes->get('/home', 'Home::index',['as' => 'dashboard']);
-$routes->get('/menubibit', 'Pembibit::menubibit',['as' => 'pembibitmenubibit']);
+
+// Bibit merupakan nama groupnya
+$routes->group('/pembibit', ['filter' => 'auth'], function($routes) {
+    $routes->get('menubibit', 'Pembibit::menubibit',['as' => 'pembibitmenubibit']);
+    $routes->get('tambahbibit', 'Pembibit\Bibit::tambahbibit',['as' => 'pembibittambahbibit']);
+	$routes->post('prosestambahbibit', 'Pembibit\Bibit::prosestambahbibit', ['as' => 'prosestambahbibit']);
+	$routes->get('editbibit/(:num)', 'Pembibit\Bibit::editbibit/$1', ['as' => 'pembibiteditbibit']);
+	$routes->post('prosesupdatebibit/(:num)', 'Pembibit\Bibit::updatebibit/$1', ['as' => 'pembibitupdatebibit']);
+	$routes->get('hapusbibit/(:num)', 'Pembibit\Bibit::hapusbibit/$1', ['as' => 'pembibithapusbibit']);
+
+	$routes->get('permintaanpesanan', 'Pembibit::permintaanpesanan',['as' => 'pembibitpermintaanpesanan']);
+	$routes->get('detailpermintaan/(:num)', 'Pembibit\Pesanan::detailpermintaan/$1', ['as' => 'pembibitdetailpermintaan']);
+});
 
 /**
  * --------------------------------------------------------------------

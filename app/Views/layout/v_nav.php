@@ -71,12 +71,12 @@
             </a>
           </li>
           <li>
-            <a href="<?= base_url('pembibit/menubibit') ?>">
+            <a href="<?php echo route_to('pembibitmenubibit'); ?>">
               <i class="fa fa-th"></i> <span>Menu Bibit</span>
             </a>
           </li>
           <li>
-            <a href="<?= base_url('pembibit/permintaanpesanan') ?>">
+            <a href="<?php echo route_to('pembibitpermintaanpesanan'); ?>">
               <i class="fa fa-th"></i> <span>Permintaan Pesanan</span>
             </a>
           </li>
@@ -88,6 +88,16 @@
           <li>
             <a href="<?= base_url('pembibit/persediaanbibit') ?>">
               <i class="fa fa-th"></i> <span>Persediaan Bibit</span>
+            </a>
+          </li>
+          <li>
+            <a href="<?php echo route_to('pembibitpermintaanpesanan'); ?>">
+              <i class="fa fa-th"></i> <span>Pengiriman Bibit</span>
+            </a>
+          </li>
+          <li>
+            <a href="<?php echo route_to('pembibitpermintaanpesanan'); ?>">
+              <i class="fa fa-th"></i> <span>Pertumbuhan Bibit</span>
             </a>
           </li>
         <?php } ?>

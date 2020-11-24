@@ -8,6 +8,29 @@
         <div class="box">
           <div class="box-header">
             <h3 class="box-title">Data Bibit</h3>
+            <?php
+              if(!empty(session()->getFlashdata('success'))){ ?>
+      
+              <div class="alert alert-success">
+                  <?php echo session()->getFlashdata('success');?>
+              </div>
+                  
+              <?php } ?>
+              <?php if(!empty(session()->getFlashdata('info'))){ ?>
+      
+              <div class="alert alert-info">
+                  <?php echo session()->getFlashdata('info');?>
+              </div>
+                  
+              <?php } ?>
+      
+              <?php if(!empty(session()->getFlashdata('warning'))){ ?>
+      
+              <div class="alert alert-warning">
+                  <?php echo session()->getFlashdata('warning');?>
+              </div>
+                  
+              <?php } ?>
           </div>
           <!-- /.box-header -->
           <div class="box-body">
@@ -24,16 +47,18 @@
               </thead>
               <tbody>
                 <?php
-                  foreach($bibit as $key => $data) {
+                  $no=1;
+                  foreach($bibit as $data) {
                 ?>
                 <tr>
-                  <td><?php echo $key+1; ?></td>
-                  <td><?php echo $data['namabibit'] ?></td>
+                  <td><?php echo $no; ?></td>
+                  <td><?php echo $data['namabibit']; ?></td>
                   <td><?php echo $data['harga']; ?></td>
-                  <td>  <?php echo $data['satuan'] ?></td>
-                  <td><a href="<?php echo route_to('pembibiteditbibit', $data['id']); ?>" class="btn btn-warning">Ubah</a> <a href="<?= base_url('pembibit/hapusbibit/'.$data['id']) ?>" class="btn btn-danger">Hapus</a></td>
+                  <td><?php echo $data['nama']; ?></td>
+                  <td><a href="<?php echo route_to('pembibiteditbibit', $data['id']); ?>" class="btn btn-warning">Ubah</a> <a href="<?php echo route_to('pembibithapusbibit', $data['id']); ?>" class="btn btn-danger">Hapus</a></td>
                 </tr>
                 <?php
+                  $no++;
                   }
                 ?>
               </tbody>
