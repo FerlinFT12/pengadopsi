@@ -112,7 +112,7 @@
             <td>''</td>
             <td>rizal</td>
             <td>12345</td>
-            <td><img src="user1.ppng" alt=""></td>
+            <td><img src="user1.png" alt=""></td>
           </tr>
           <tr>
             <td>183</td>
