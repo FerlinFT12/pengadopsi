@@ -13,59 +13,16 @@ class Filters extends BaseConfig
 		'csrf'     => \CodeIgniter\Filters\CSRF::class,
 		'toolbar'  => \CodeIgniter\Filters\DebugToolbar::class,
 		'honeypot' => \CodeIgniter\Filters\Honeypot::class,
-		'filteradmin' => \App\Filters\FilterAdmin::class,
-		'filterdonatur' => \App\Filters\FilterDonatur::class,
-		'filtermitra' => \App\Filters\FilterMitra::class,
-		'filterpengadopsi' => \App\Filters\FilterPengadopsi::class,
+		'auth' => \App\Filters\AuthFilter::class,
 	];
 
 	// Always applied before every request
 	public $globals = [
 		'before' => [
-			'filteradmin' =>  ['except' => [
-				'auth', 'auth/*',
-				'web', 'web/*',
-				'/',
-			]],
-			'filterdonatur' =>  ['except' => [
-				'auth', 'auth/*',
-				'web', 'web/*',
-				'/'
-			]],
-			'filtermitra' =>  ['except' => [
-				'auth', 'auth/*',
-				'web', 'web/*',
-				'/'
-			]],
-			'filterpengadopsi' =>  ['except' => [
-				'auth', 'auth/*',
-				'web', 'web/*',
-				'/'
-			]]
 			//'honeypot'
 			// 'csrf',
 		],
 		'after'  => [
-			'filteradmin' =>  ['except' => [
-				'home', 'home/*',
-				'admin', 'admin/*',
-				'donatur', 'donatur/*',
-				'mitra', 'mitra/*',
-				'pengadopsi', 'pengadopsi/*'
-			]],
-			'filterdonatur' =>  ['except' => [
-				'home', 'home/*',
-				'donatur', 'donatur/*'
-			]],
-			'filtermitra' =>  ['except' => [
-				'home', 'home/*',
-				'mitra', 'mitra/*',
-				'transaksi', 'transaksi/*'
-			]],
-			'filterpengadopsi' =>  ['except' => [
-				'home', 'home/*',
-				'pengadopsi', 'pengadopsi/*'
-			]],
 			'toolbar',
 			//'honeypot'
 		],

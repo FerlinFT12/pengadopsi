@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Argowisata Porlak Parna</title>
+  <title>Agrowisata Porlak Parna</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
   <!-- logosmall -->
@@ -38,12 +38,12 @@
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top ">
     <div class="container d-flex align-items-center">
-      <h1 class="logo mr-auto"><a href="index.html">Argowisata Porlak Parna</a></h1>
+      <h1 class="logo mr-auto"><a href="<?php echo base_url(); ?>">Argowisata Porlak Parna</a></h1>
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="logo mr-auto"><img src="<template/landingpage/assets/img/logo-app.png" alt="" class="img-fluid"></a> -->
       <nav class="nav-menu d-none d-lg-block">
         <ul>
-          <li class="active"><a href="http://localhost/ci4_sistemlogin/public/web">Home</a></li>
+          <li class="active"><a href="<?php echo base_url(); ?>">Home</a></li>
           <li><a href="#profile">Tentanng Danau Toba</a></li>
           <li><a href="#product">Product</a></li>
           <li><a href="#pkbl">PKBL</a></li>
@@ -61,7 +61,7 @@
         </ul>
       </nav>
       <!-- .nav-menu -->
-      <a href="<?= base_url('auth/login') ?>" class="get-started-btn scrollto">Login</a>
+      <a href="<?php echo route_to('login'); ?>" class="get-started-btn scrollto">Login</a>
     </div>
   </header><!-- End Header -->
 
@@ -75,7 +75,7 @@
             <h2>Jika Anda merawat saya hari ini,itu berarti Anda sedang mempersiapkan hidup Anda untuk 20 tahun ke depan.</h2>
           </a>
           <div class="d-lg-flex" data-aos="fade-up" data-aos-delay="2000">
-            <a href="<? route_to('registeruser'); ?>" class="btn-get-started scrollto">Mari Bergabung</a>
+            <a href="<?php echo route_to('register'); ?>" class="btn-get-started scrollto">Mari Bergabung</a>
             <a href="https://youtu.be/LCZvgQkS_yM" class="venobox btn-watch-video" data-vbtype="video" data-autoplay="true"> Watch Video <i class="icofont-play-alt-2"></i></a>
           </div>
         </div>
@@ -182,7 +182,7 @@
             <p> Kegiatan Pelestarian dan Pemberdayaan Ekonomi Kerakyatan di Kawasan Danau Toba melalui Gerakan 1000 Porlak Tanaman Produktif dan Agrowisata. Siapapun Anda dapat berkontribusi membangun Danau Toba. Danau Toba dan Pulau Samosir adalah aset bangsa dan aset kita.</p>
           </div>
           <div class="col-lg-3 cta-btn-container text-center">
-            <a class="cta-btn align-middle" href="<?= base_url('auth/register') ?>">Gabung Sekarang</a>
+            <a class="cta-btn align-middle" href="<?php echo route_to('register'); ?>">Gabung Sekarang</a>
           </div>
         </div>
       </div>
@@ -211,7 +211,7 @@
             <p> Kegiatan Pelestarian dan Pemberdayaan Ekonomi Kerakyatan di Kawasan Danau Toba melalui Gerakan 1000 Porlak Tanaman Produktif dan Agrowisata. Siapapun Anda dapat berkontribusi membangun Danau Toba. Danau Toba dan Pulau Samosir adalah aset bangsa dan aset kita.</p>
           </div>
           <div class="col-lg-3 cta-btn-container text-center">
-            <a class="cta-btn align-middle" href="<?= base_url('auth/register') ?>">Gabung Sekarang</a>
+            <a class="cta-btn align-middle" href="<?php echo route_to('register'); ?>">Gabung Sekarang</a>
           </div>
         </div>
       </div>
@@ -236,7 +236,7 @@
             <p> Kegiatan Pelestarian dan Pemberdayaan Ekonomi Kerakyatan di Kawasan Danau Toba melalui Gerakan 1000 Porlak Tanaman Produktif dan Agrowisata. Siapapun Anda dapat berkontribusi membangun Danau Toba. Danau Toba dan Pulau Samosir adalah aset bangsa dan aset kita.</p>
           </div>
           <div class="col-lg-3 cta-btn-container text-center">
-            <a class="cta-btn align-middle" href="<?= base_url('auth/register') ?>">Gabung Sekarang</a>
+            <a class="cta-btn align-middle" href="<?php echo route_to('register'); ?>">Gabung Sekarang</a>
           </div>
         </div>
       </div>
@@ -352,7 +352,7 @@
             <p> Kegiatan Pelestarian dan Pemberdayaan Ekonomi Kerakyatan di Kawasan Danau Toba melalui Gerakan 1000 Porlak Tanaman Produktif dan Agrowisata. Siapapun Anda dapat berkontribusi membangun Danau Toba. Danau Toba dan Pulau Samosir adalah aset bangsa dan aset kita.</p>
           </div>
           <div class="col-lg-3 cta-btn-container text-center">
-            <a class="cta-btn align-middle" href="<?= base_url('auth/register') ?>">Gabung Sekarang</a>
+            <a class="cta-btn align-middle" href="<?php echo route_to('register'); ?>">Gabung Sekarang</a>
           </div>
         </div>
       </div>
@@ -514,7 +514,7 @@
             <p> Kegiatan Pelestarian dan Pemberdayaan Ekonomi Kerakyatan di Kawasan Danau Toba melalui Gerakan 1000 Porlak Tanaman Produktif dan Agrowisata. Siapapun Anda dapat berkontribusi membangun Danau Toba. Danau Toba dan Pulau Samosir adalah aset bangsa dan aset kita.</p>
           </div>
           <div class="col-lg-3 cta-btn-container text-center">
-            <a class="cta-btn align-middle" href="<?= base_url('auth/register') ?>">Gabung Sekarang</a>
+            <a class="cta-btn align-middle" href="<?php echo route_to('register'); ?>">Gabung Sekarang</a>
           </div>
         </div>
       </div>
@@ -599,10 +599,9 @@
   <a href="#" class="back-to-top"><i class="ri-arrow-up-line"></i></a>
   <div id="preloader"></div>
 
-
   <!-- Vendor JS Files -->
-  <script src="<?php echo base_url('template/landingpage/assets/vendor/jquery/jquery.min.js'); ?>"></script>
-  <script src="<? echo base_url('template/landingpage/assets/vendor/bootstrap/js/bootstrap.bundle.min.js'); ?>"></script>
+  <script src="<?= base_url() ?>/template/landingpage/assets/vendor/jquery/jquery.min.js"></script>
+  <script src="<?= base_url('template/landingpage/assets/vendor/bootstrap/js/bootstrap.bundle.min.js'); ?>"></script>
   <script src="<?= base_url() ?>/template/landingpage/assets/vendor/jquery.easing/jquery.easing.min.js"></script>
   <script src="<?= base_url() ?>/template/landingpage/assets/vendor/jquery.easing/jquery.easing.min.js"></script>
   <script src="<?= base_url() ?>/template/landingpage/assets/vendor/jquery.easing/jquery.easing.min.js"></script>
@@ -614,7 +613,7 @@
   <script src="<?= base_url() ?>/template/landingpage/assets/vendor/aos/aos.js"></script>
 
   <!-- Template Main JS File -->
-  <script src="<?php echo base_url('template/landingpage/assets/js/main.js'); ?>"></script>
+  <script src="<?= base_url() ?>/template/landingpage/assets/js/main.js"></script>
 </body>
 
 </html>

@@ -6,24 +6,21 @@ use CodeIgniter\HTTP\RequestInterface;
 use CodeIgniter\HTTP\ResponseInterface;
 use CodeIgniter\Filters\FilterInterface;
 
-class FilterAdmin implements FilterInterface
+class AuthFilter implements FilterInterface
 {
   public function before(RequestInterface $request, $arguments = null)
   {
-    // Do something here
-    if (session()->get('level') == "") {
-      session()->setFlashdata('pesan', 'Anda Belum Login! , Silahkan Login!');
-      return redirect()->to(base_url('auth/login'));
-    }
+    // jika user belum login
+        if(!session()->get('logged_in')){
+            // maka redirct ke halaOman login
+            return redirect()->to('/login'); 
+        }
   }
 
   //--------------------------------------------------------------------
 
   public function after(RequestInterface $request, ResponseInterface $response, $arguments = null)
   {
-    // Do something here
-    if (session()->get('level') == 1) {
-      return redirect()->to(base_url('home'));
-    }
+    
   }
 }

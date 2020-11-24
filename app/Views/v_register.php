@@ -5,27 +5,27 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Register | Argowisata Porlak Parna</title>
+  <title>Register | Agrowisata Porlak Parna</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="<?= base_url() ?>/template/landingpage/assets/img/favicon.png" rel="icon">
-  <link href="<?= base_url() ?>/template/landingpage/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="<?= base_url() ?>template/landingpage/assets/img/favicon.png" rel="icon">
+  <link href="<?= base_url() ?>template/landingpage/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
   <!-- logosmall -->
-  <link href="<?= base_url() ?>/template/landingpage/assets/img/logo-small.png" rel="icon">
-  <link href="<?= base_url() ?>/template/landingpage/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="<?= base_url() ?>template/landingpage/assets/img/logo-small.png" rel="icon">
+  <link href="<?= base_url() ?>template/landingpage/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Jost:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
-  <link href="<?= base_url('template/landingpage/assets/vendor/bootstrap/css/bootstrap.min.css'); ?>" rel="stylesheet">
-  <link href="<?= base_url() ?>/template/landingpage/assets/vendor/icofont/icofont.min.css" rel="stylesheet">
-  <link href="<?= base_url() ?>/template/landingpage/assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="<?= base_url() ?>/template/landingpage/assets/vendor/remixicon/remixicon.css" rel="stylesheet">
-  <link href="<?= base_url() ?>/template/landingpage/assets/vendor/venobox/venobox.css" rel="stylesheet">
-  <link href="<?= base_url() ?>/template/landingpage/assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="<?php echo base_url('template/landingpage/assets/vendor/bootstrap/css/bootstrap.min.css'); ?>" rel="stylesheet">
+  <link href="<?= base_url('template/landingpage/assets/vendor/icofont/icofont.min.css'); ?>" rel="stylesheet">
+  <link href="<?= base_url('template/landingpage/assets/vendor/boxicons/css/boxicons.min.css'); ?>" rel="stylesheet">
+  <link href="<?= base_url('template/landingpage/assets/vendor/remixicon/remixicon.css'); ?>" rel="stylesheet">
+  <link href="<?= base_url('template/landingpage/assets/vendor/venobox/venobox.css'); ?>" rel="stylesheet">
+  <link href="<?= base_url('template/landingpage/assets/vendor/owl.carousel/assets/owl.carousel.min.css'); ?>" rel="stylesheet">
   <link href="<?= base_url('template/landingpage/assets/vendor/aos/aos.css'); ?>" rel="stylesheet">
   <!-- Template Main CSS File -->
   <link href="<?= base_url('template/landingpage/assets/css/style.css'); ?>" rel="stylesheet">
@@ -37,15 +37,15 @@
   <header id="header" class="fixed-top header-inner-pages">
     <div class="container d-flex align-items-center">
 
-      <h1 class="logo mr-auto"><a href="index.html">Argowisata Porlak Parna</a></h1>
+      <h1 class="logo mr-auto"><a href="<?php echo base_url(); ?>">Agrowisata Porlak Parna</a></h1>
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="logo mr-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
       <nav class="nav-menu d-none d-lg-block">
       </nav><!-- .nav-menu -->
 
-      <a href="<?= base_url('/web') ?>" class="get-started-btn scrollto">Landing Page</a>
-      <a href="<?= base_url('auth/login') ?>" class="get-started-btn scrollto">Login</a>
+      <a href="<?php echo base_url() ?>" class="get-started-btn scrollto">Landing Page</a>
+      <a href="<?php echo route_to('login'); ?>" class="get-started-btn scrollto">Login</a>
 
     </div>
   </header><!-- End Header -->
@@ -55,7 +55,7 @@
     <div class="container">
 
       <ol>
-        <li><a href="index.html">Home</a></li>
+        <li><a href="<?php echo base_url() ?>">Home</a></li>
         <li>Register</li>
       </ol>
       <h2>Register</h2>
@@ -94,7 +94,7 @@
         <body class="hold-transition register-page">
           <div class="register-box box-tools center">
             <div class="register-logo center">
-              <a href="../../index2.html"><b></b><img src="<?= base_url() ?>/template/landingpage/assets/img/logo-app.png" width="45%" height="45%" style="display: block; margin: auto;"" class=" shadow-light"></a>
+              <a href="<?php echo base_url() ?>"><b></b><img src="<?= base_url() ?>/template/landingpage/assets/img/logo-app.png" width="45%" height="45%" style="display: block; margin: auto;"" class=" shadow-light"></a>
             </div><br>
 
             <div class="register-box-body">
@@ -314,15 +314,12 @@
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-lg-6">
-            <h4>Bergabunglah Bersama Kami</h4>
-            <form action="" method="post">
-              <input type="email" placeholder="Tidak memiliki akun?" disabled><input type="submit" value="Gabung Sekarang">
-            </form>
+              <h4>Bergabunglah Bersama Kami</h4>
+              <a href="<?php echo route_to('register'); ?>">Tidak memiliki akun?</a> <a href="<?php echo route_to('register'); ?>" class="btn btn-primary">Gabung Sekarang</a>
           </div>
         </div>
       </div>
     </div>
-
     <div class="footer-top">
       <div class="container">
         <div class="row">
@@ -348,13 +345,13 @@
           <div class="col-lg-3 col-md-6 footer-links">
             <h4>Useful Links</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#profile">Tentang Danau Toba</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#product">Product</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#pkbl">PKBL</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#donatur">Donatur</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#mitra">Mitra</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#pengadopsi">Pengadopsi</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="<?php echo base_url(); ?>">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="<?php echo base_url(); ?>">Tentang Danau Toba</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="<?php echo base_url(); ?>">Product</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="<?php echo base_url(); ?>">PKBL</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="<?php echo base_url(); ?>">Donatur</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="<?php echo base_url(); ?>">Mitra</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="<?php echo base_url(); ?>">Pengadopsi</a></li>
             </ul>
           </div>
 
